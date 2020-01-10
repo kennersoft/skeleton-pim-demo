@@ -64,3 +64,6 @@ file_put_contents('composer.json', json_encode($data, JSON_PRETTY_PRINT | JSON_U
 
 // copy to stable
 copy('composer.json', 'data/stable-composer.json');
+
+// drop cache
+\Treo\Core\Utils\Util::removeDir('data/cache');
