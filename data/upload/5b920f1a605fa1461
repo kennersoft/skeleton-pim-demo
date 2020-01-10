@@ -1,0 +1,5 @@
+name;sku;isActive;type;amount;price;productStatus;ean;mpn;uvp;nameDeDe;nameEnUs
+Canon EOS 1100D;ca_1100D;;simpleProduct;1;346.94;draft;5553442231211;1100D;399;Canon EOS 1100D;Canon EOS 1100D
+Canon EOS 5D Mark III + EF 24-105 F4L IS USM;13605290;1;simpleProduct;111;550;ready;4321441222321;24105;0;Canon EOS 5D Mark III + EF 24-105 F4L IS USM;Canon EOS 5D Mark III + EF 24-105 F4L IS USM
+Canon EOS 5D Mark III + SDSDUNC-032G SDHC Ultra Class 10 UHS-I + Сase;987654321;1;packageProduct;0;665;ready;1465777372221;5D-032G;0;Canon EOS 5D Mark III + SDSDUNC-032G SDHC Ultra Class 10 UHS-I + Сase;Canon EOS 5D Mark III + SDSDUNC-032G SDHC Ultra Class 10 UHS-I + Сase
+SDSDUNC-032G SDHC Ultra Class 10 UHS-I;B014IX0202;1;simpleProduct;123;2.15;ready;5565423246742;032G;0;SDSDUNC-032G SDHC Ultra Class 10 UHS-I;SDSDUNC-032G SDHC Ultra Class 10 UHS-I

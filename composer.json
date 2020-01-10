@@ -1,0 +1,30 @@
+{
+    "name": "treolabs/skeleton-pim-demo",
+    "description": "Skeleton for TreoPIM with demo data",
+    "homepage": "https://treopim.com",
+    "license": "GPL-3.0-only",
+    "minimum-stability": "stable",
+    "require": {
+        "treolabs/treocore": "3.25.3",
+        "treolabs/pim": "3.11.23",
+        "treolabs/activities-tasks": "1.10.5"
+    },
+    "scripts": {
+        "pre-update-cmd": "ComposerCmd::preUpdate",
+        "post-update-cmd": "ComposerCmd::postUpdate",
+        "post-package-install": "ComposerCmd::postPackageInstall",
+        "post-package-update": "ComposerCmd::postPackageUpdate",
+        "pre-package-uninstall": "ComposerCmd::prePackageUninstall"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.treopim.com/packages.json?id=public"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "composer-cmd.php"
+        ]
+    }
+}
