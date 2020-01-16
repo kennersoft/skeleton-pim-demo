@@ -55,7 +55,7 @@ $config->save();
 $data = json_decode(file_get_contents('composer.json'), true);
 
 // prepare
-$data['require']['treolabs/treocore'] = '^3.25.7';
+$data['require']['treolabs/treocore'] = '^3.25.8';
 $data['require']['treolabs/pim'] = '*';
 
 // save new composer data
