@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "minimum-stability": "stable",
     "require": {
-        "treolabs/treocore": "3.25.8",
+        "treolabs/treocore": "~3.25.10",
         "treolabs/pim": "3.11.23"
     },
     "scripts": {
