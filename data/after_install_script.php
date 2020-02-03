@@ -49,6 +49,106 @@ $config->set(
         'Catalog'
     ]
 );
+$config->set(
+    'unitsOfMeasure', [
+        'Length'                    => [
+            'unitList'  => [
+                'mm',
+                'cm',
+                'dm',
+                'm',
+                'km',
+                'inch'
+            ],
+            'baseUnit'  => 'mm',
+            'unitRates' => [
+                'cm'   => 1,
+                'dm'   => 1,
+                'm'    => 1,
+                'km'   => 1,
+                'inch' => 1
+            ]
+        ],
+        'Mass'                      => [
+            'unitList'  => [
+                'mg',
+                'g',
+                'kg',
+                'ounces'
+            ],
+            'baseUnit'  => 'mg',
+            'unitRates' => [
+                'g'      => 1,
+                'kg'     => 1,
+                'ounces' => 1
+            ]
+        ],
+        'Time'                      => [
+            'unitList'  => [
+                's',
+                'm',
+                'h'
+            ],
+            'baseUnit'  => 's',
+            'unitRates' => [
+                'm' => 1,
+                'h' => 1
+            ]
+        ],
+        'Electric Current'          => [
+            'unitList'  => [
+                'A'
+            ],
+            'baseUnit'  => 'A',
+            'unitRates' => []
+        ],
+        'Thermodynamic Temperature' => [
+            'unitList'  => [
+                'K',
+                'C'
+            ],
+            'baseUnit'  => 'K',
+            'unitRates' => [
+                'C' => 1
+            ]
+        ],
+        'Amount Of Substance'       => [
+            'unitList'  => [
+                'mol'
+            ],
+            'baseUnit'  => 'mol',
+            'unitRates' => []
+        ],
+        'Luminous Intensity'        => [
+            'unitList'  => [
+                'cd'
+            ],
+            'baseUnit'  => 'cd',
+            'unitRates' => []
+        ],
+        'Long intervals of time'    => [
+            'unitList'  => [
+                'year',
+                'month',
+                'week',
+                'day'
+            ],
+            'baseUnit'  => 'year',
+            'unitRates' => [
+                'month' => 1,
+                'week'  => 1,
+                'day'   => 1
+            ]
+        ],
+        'File Size'                 => [
+            'unitList'  => [
+                'kb'
+            ],
+            'baseUnit'  => 'kb',
+            'unitRates' => []
+        ],
+    ]
+);
 $config->save();
 
 // get data
