@@ -49,99 +49,98 @@ $config->set(
         'Catalog'
     ]
 );
-$config->set(
-    'unitsOfMeasure', [
-        'Length'                    => [
-            'unitList'  => [
-                'mm',
-                'cm',
-                'dm',
-                'm',
-                'km',
-                'inch'
-            ],
-            'baseUnit'  => 'mm',
-            'unitRates' => [
-                'cm'   => 1,
-                'dm'   => 1,
-                'm'    => 1,
-                'km'   => 1,
-                'inch' => 1
-            ]
+$unitsOfMeasure = [
+    'Length'                    => [
+        'unitList'  => [
+            'mm',
+            'cm',
+            'dm',
+            'm',
+            'km',
+            'inch'
         ],
-        'Mass'                      => [
-            'unitList'  => [
-                'mg',
-                'g',
-                'kg',
-                'ounces'
-            ],
-            'baseUnit'  => 'mg',
-            'unitRates' => [
-                'g'      => 1,
-                'kg'     => 1,
-                'ounces' => 1
-            ]
+        'baseUnit'  => 'mm',
+        'unitRates' => [
+            'cm'   => 1,
+            'dm'   => 1,
+            'm'    => 1,
+            'km'   => 1,
+            'inch' => 1
+        ]
+    ],
+    'Mass'                      => [
+        'unitList'  => [
+            'mg',
+            'g',
+            'kg',
+            'ounces'
         ],
-        'Time'                      => [
-            'unitList'  => [
-                's',
-                'm',
-                'h'
-            ],
-            'baseUnit'  => 's',
-            'unitRates' => [
-                'm' => 1,
-                'h' => 1
-            ]
+        'baseUnit'  => 'mg',
+        'unitRates' => [
+            'g'      => 1,
+            'kg'     => 1,
+            'ounces' => 1
+        ]
+    ],
+    'Time'                      => [
+        'unitList'  => [
+            's',
+            'm',
+            'h'
         ],
-        'Electric Current'          => [
-            'unitList'  => [
-                'A'
-            ],
-            'baseUnit'  => 'A',
-            'unitRates' => []
+        'baseUnit'  => 's',
+        'unitRates' => [
+            'm' => 1,
+            'h' => 1
+        ]
+    ],
+    'Electric Current'          => [
+        'unitList'  => [
+            'A'
         ],
-        'Thermodynamic Temperature' => [
-            'unitList'  => [
-                'K',
-                'C'
-            ],
-            'baseUnit'  => 'K',
-            'unitRates' => [
-                'C' => 1
-            ]
+        'baseUnit'  => 'A',
+        'unitRates' => []
+    ],
+    'Thermodynamic Temperature' => [
+        'unitList'  => [
+            'K',
+            'C'
         ],
-        'Amount Of Substance'       => [
-            'unitList'  => [
-                'mol'
-            ],
-            'baseUnit'  => 'mol',
-            'unitRates' => []
+        'baseUnit'  => 'K',
+        'unitRates' => [
+            'C' => 1
+        ]
+    ],
+    'Amount Of Substance'       => [
+        'unitList'  => [
+            'mol'
         ],
-        'Luminous Intensity'        => [
-            'unitList'  => [
-                'cd'
-            ],
-            'baseUnit'  => 'cd',
-            'unitRates' => []
+        'baseUnit'  => 'mol',
+        'unitRates' => []
+    ],
+    'Luminous Intensity'        => [
+        'unitList'  => [
+            'cd'
         ],
-        'Long intervals of time'    => [
-            'unitList'  => [
-                'year',
-                'month',
-                'week',
-                'day'
-            ],
-            'baseUnit'  => 'year',
-            'unitRates' => [
-                'month' => 1,
-                'week'  => 1,
-                'day'   => 1
-            ]
+        'baseUnit'  => 'cd',
+        'unitRates' => []
+    ],
+    'Long intervals of time'    => [
+        'unitList'  => [
+            'year',
+            'month',
+            'week',
+            'day'
         ],
-    ]
-);
+        'baseUnit'  => 'year',
+        'unitRates' => [
+            'month' => 1,
+            'week'  => 1,
+            'day'   => 1
+        ]
+    ],
+];
+$config->set('unitsOfMeasure', json_decode(json_encode($unitsOfMeasure)));
 $config->save();
 
 // get data
