@@ -140,13 +140,6 @@ $config->set(
                 'day'   => 1
             ]
         ],
-        'File Size'                 => [
-            'unitList'  => [
-                'kb'
-            ],
-            'baseUnit'  => 'kb',
-            'unitRates' => []
-        ],
     ]
 );
 $config->save();
