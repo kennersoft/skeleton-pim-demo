@@ -1,12 +1,12 @@
 {
-    "name": "treolabs/skeleton-pim-demo",
-    "description": "Skeleton for TreoPIM with demo data",
-    "homepage": "https://treopim.com",
+    "name": "kennersoft/skeleton-pim-demo",
+    "description": "Skeleton for KennerPIM with demo data",
+    "homepage": "https://kennerpim.de",
     "license": "GPL-3.0-only",
     "minimum-stability": "stable",
     "require": {
-        "treolabs/treocore": "~3.25.10",
-        "treolabs/pim": "3.11.23"
+        "kennersoft/kennercore": "~3.25.10",
+        "kennersoft/pim": "3.11.29"
     },
     "scripts": {
         "pre-update-cmd": "ComposerCmd::preUpdate",
@@ -19,5 +19,11 @@
         "classmap": [
             "composer-cmd.php"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.kennersoft.de/packages.json?id=public"
+        }
+    ]
 }
