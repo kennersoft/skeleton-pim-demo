@@ -5,8 +5,9 @@
     "license": "GPL-3.0-only",
     "minimum-stability": "stable",
     "require": {
-        "kennersoft/kennercore": "~3.25.10",
-        "kennersoft/pim": "3.11.29"
+        "kennersoft/kennercore": "^3.25.6",
+        "kennersoft/multi-languages": "*",
+        "kennersoft/pim": "~3.11.30"
     },
     "scripts": {
         "pre-update-cmd": "ComposerCmd::preUpdate",
