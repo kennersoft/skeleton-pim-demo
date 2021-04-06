@@ -108,6 +108,15 @@ class ComposerCmd
         // get composer update pretty line
         $prettyLine = (string)$event->getOperation();
 
+         //Composer v2
+        if (strstr($prettyLine, "Upgrading")) {
+            preg_match_all("/^Upgrading <info>(.*)<\/info> \(<comment>(.*)<\/comment> => <comment>(.*)<\/comment>\)$/", $prettyLine, $matches);
+            if (count($matches) == 4) {
+                self::createPackageActionFile($matches[1][0], 'update', $matches[2][0] . '_' . $matches[3][0]);
+            }
+            return;
+        }        
+        
         preg_match_all("/^Updating (.*) \((.*)\) to (.*) \((.*)\)$/", $prettyLine, $matches);
         if (count($matches) == 5) {
             self::createPackageActionFile($matches[1][0], 'update', $matches[2][0] . '_' . $matches[4][0]);
