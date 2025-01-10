@@ -12,6 +12,22 @@
             [
                 {
                     "name": "name"
+                },
+                {
+                    "name": "sku"
+                }
+            ],
+            [
+                {
+                    "name": "site"
+                },
+                {
+                    "name": "manufactureLogo"
+                }
+            ],
+            [
+                {
+                    "name": "description"
                 }
             ],
             [
@@ -22,14 +38,40 @@
             ],
             [
                 {
-                    "name": "nameEnUs"
+                    "name": "descriptionDeDe"
                 },
                 false
             ],
             [
                 {
-                    "name": "description",
-                    "fullWidth": true
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionFrFr"
+                },
+                {
+                    "name": "descriptionEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionItIt"
+                },
+                {
+                    "name": "descriptionEnGb"
                 }
             ]
         ],

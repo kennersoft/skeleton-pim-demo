@@ -1,0 +1,67 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "code",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "file"
+                },
+                {
+                    "name": "private"
+                }
+            ],
+            [
+                {
+                    "name": "nameOfFile",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "collection",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "nameDeDe"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

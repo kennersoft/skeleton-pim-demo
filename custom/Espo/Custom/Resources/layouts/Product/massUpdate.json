@@ -5,6 +5,7 @@
     "ean",
     "mpn",
     "name",
+    "longDescription",
     "packaging",
     "productFamily",
     "price",

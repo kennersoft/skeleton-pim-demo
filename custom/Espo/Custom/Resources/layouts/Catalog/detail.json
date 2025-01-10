@@ -22,9 +22,7 @@
                 false
             ],
             [
-                {
-                    "name": "nameEnUs"
-                },
+                false,
                 false
             ],
             [
@@ -40,9 +38,38 @@
                 }
             ],
             [
+                false
+            ],
+            [
                 {
-                    "name": "descriptionEnUs",
-                    "fullWidth": true
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionFrFr"
+                },
+                {
+                    "name": "descriptionEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionItIt"
+                },
+                {
+                    "name": "descriptionEnGb"
                 }
             ]
         ],

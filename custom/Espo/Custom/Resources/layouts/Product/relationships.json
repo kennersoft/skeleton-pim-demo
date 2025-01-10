@@ -1,0 +1,35 @@
+[
+  {
+    "name": "parentConfigurations"
+  },
+  {
+    "name": "amazonExportTexts"
+  },
+  {
+    "name": "coolers"
+  },
+  {
+    "name": "components"
+  },
+  {
+    "name": "categories"
+  },
+  {
+    "name": "dynamicProductGroups"
+  },
+  {
+    "name": "productAttributeValues"
+  },
+  {
+    "name": "ksBadgetss"
+  },
+  {
+    "name": "channels"
+  },
+  {
+    "name": "associatedMainProducts"
+  },
+  {
+    "name": "asset_relations"
+  }
+]

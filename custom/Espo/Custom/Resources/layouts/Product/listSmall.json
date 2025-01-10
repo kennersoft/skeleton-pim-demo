@@ -1,0 +1,19 @@
+[
+    {
+        "name": "name",
+        "width": 60,
+        "link": true
+    },
+    {
+        "name": "sku",
+        "width": 15
+    },
+    {
+        "name": "type",
+        "width": 18
+    },
+    {
+        "name": "isActive",
+        "width": 7
+    }
+]

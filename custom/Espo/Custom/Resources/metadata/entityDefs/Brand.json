@@ -6,5 +6,45 @@
             "name"
         ],
         "fullTextSearch": false
+    },
+    "fields": {
+        "sku": {
+            "type": "varchar",
+            "required": false,
+            "trim": true,
+            "audited": false,
+            "readOnly": false,
+            "isMultilang": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "site": {
+            "type": "text",
+            "required": false,
+            "rows": 30,
+            "lengthOfCut": 400,
+            "seeMoreDisabled": false,
+            "readOnly": false,
+            "audited": false,
+            "isMultilang": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "manufactureLogo": {
+            "type": "image",
+            "required": true,
+            "previewSize": "small",
+            "audited": true,
+            "tooltipText": "Manufacture logo",
+            "tooltip": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "manufactureLogo": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true
+        }
     }
 }

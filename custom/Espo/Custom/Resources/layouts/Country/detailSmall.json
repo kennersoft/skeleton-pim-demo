@@ -1,0 +1,38 @@
+[
+    {
+        "label": "",
+        "style": "default",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "isActive"
+                }
+            ],
+            [
+                {
+                    "name": "nameDeDe"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ]
+        ]
+    }
+]

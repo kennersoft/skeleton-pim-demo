@@ -16,9 +16,7 @@
                 false
             ],
             [
-                {
-                    "name": "nameEnUs"
-                },
+                false,
                 {
                     "name": "nameDeDe"
                 }
@@ -38,11 +36,41 @@
                 }
             ],
             [
-                {
-                    "name": "descriptionEnUs"
-                },
+                false,
                 {
                     "name": "descriptionDeDe"
+                }
+            ],
+            [
+                {
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionFrFr"
+                },
+                {
+                    "name": "descriptionEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionItIt"
+                },
+                {
+                    "name": "descriptionEnGb"
                 }
             ]
         ],

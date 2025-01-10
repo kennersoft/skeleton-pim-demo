@@ -5,7 +5,12 @@
                 {
                     "name": "isActive"
                 },
-                false
+                {
+                    "name": "multipleInConfigurator"
+                },
+                {
+                    "name": "enableInListingAndSearch"
+                }
             ],
             [
                 {
@@ -13,36 +18,77 @@
                 },
                 {
                     "name": "code"
-                }
+                },
+                {
+                    "name": "area"
+                },
+                false
             ],
             [
                 {
                     "name": "nameDeDe"
                 },
-                false
+                {
+                    "name": "defaultProductsInConfiguration"
+                }
             ],
             [
                 {
-                    "name": "nameEnUs"
+                    "name": "section"
                 },
+                {
+                    "name": "group"
+                },
+                {
+                    "name": "sorting"
+                },
+                {
+                    "name": "icon"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionDeDe"
+                }
+            ],
+            [
                 false
             ],
             [
                 {
-                    "name": "description",
-                    "fullWidth": true
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
                 }
             ],
             [
                 {
-                    "name": "descriptionDeDe",
-                    "fullWidth": true
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
                 }
             ],
             [
                 {
-                    "name": "descriptionEnUs",
-                    "fullWidth": true
+                    "name": "descriptionFrFr"
+                },
+                {
+                    "name": "descriptionEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionItIt"
+                },
+                {
+                    "name": "descriptionEnGb"
                 }
             ]
         ],

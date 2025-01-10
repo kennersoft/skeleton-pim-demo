@@ -1,5 +1,26 @@
 {
     "kanbanViewMode": false,
     "color": null,
-    "iconClass": "fas fa-tags"
+    "iconClass": "fas fa-tags",
+    "dynamicLogic": {
+        "fields": {
+            "manufactureLogo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "assignedUserId",
+                            "data": {
+                                "field": "assignedUser",
+                                "values": {
+                                    "assignedUserName": "Admin"
+                                }
+                            },
+                            "value": "1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
 }

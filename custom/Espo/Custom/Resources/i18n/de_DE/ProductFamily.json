@@ -18,7 +18,9 @@
         "productFamilies": "Produktfamilien",
         "productFamilyAttributes": "Attribute der  Produktfamilie",
         "productFamilyTemplate": "Vorlage der Produktfamilie",
-        "products": "Produkte"
+        "products": "Produkte",
+        "defaultProductsInConfiguration": "Standardprodukte in der PC-Konfiguration",
+        "enableInListingAndSearch" : "In Listings ausblenden und suchen"
     },
     "labels": {
         "Create ProductFamily": "Produktfamilie erstellen"

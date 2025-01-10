@@ -1,0 +1,22 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "entityId"
+                },
+                {
+                    "name": "assetId"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

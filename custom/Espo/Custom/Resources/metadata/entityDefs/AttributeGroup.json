@@ -6,5 +6,17 @@
             "name"
         ],
         "fullTextSearch": false
+    },
+    "fields": {
+        "addBagetsToProductInPopup": {
+            "notNull": true,
+            "type": "bool",
+            "default": false,
+            "audited": false,
+            "readOnly": false,
+            "isMultilang": false,
+            "tooltip": false,
+            "isCustom": true
+        }
     }
 }

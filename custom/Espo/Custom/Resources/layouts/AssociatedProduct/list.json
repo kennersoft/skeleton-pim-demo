@@ -1,0 +1,17 @@
+[
+    {
+        "name": "association"
+    },
+    {
+        "name": "mainProduct"
+    },
+    {
+        "name": "mainProductImage"
+    },
+    {
+        "name": "relatedProduct"
+    },
+    {
+        "name": "relatedProductImage"
+    }
+]

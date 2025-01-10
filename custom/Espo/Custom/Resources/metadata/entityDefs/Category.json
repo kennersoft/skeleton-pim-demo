@@ -1,10 +1,212 @@
 {
-    "collection": {
-        "sortBy": "createdAt",
-        "asc": false,
-        "textFilterFields": [
-            "name"
-        ],
-        "fullTextSearch": false
+  "collection": {
+    "sortBy": "createdAt",
+    "asc": false,
+    "textFilterFields": [
+      "name"
+    ],
+    "fullTextSearch": false
+  },
+  "fields": {
+    "distScopeTypes": {
+      "type": "linkMultiple",
+      "layoutDetailDisabled": true,
+      "layoutMassUpdateDisabled": true,
+      "noLoad": true,
+      "importDisabled": true
+    },
+    "metaTitle": {
+      "type": "text",
+      "rows": 30,
+      "lengthOfCut": 400,
+      "isMultilang": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "rows": 30,
+      "lengthOfCut": 400,
+      "isMultilang": true
+    },
+    "seoUrl": {
+      "type": "text",
+      "rows": 30,
+      "lengthOfCut": 400,
+      "isMultilang": true
+    },
+    "metaKeywords": {
+      "type": "text",
+      "rows": 30,
+      "lengthOfCut": 400,
+      "isMultilang": true
+    },
+    "description2": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "justOneBanner": {
+      "type": "image",
+      "audited": false,
+      "tooltip": false
+    },
+    "oneBannerLink": {
+      "type": "text",
+      "rows": 30,
+      "lengthOfCut": 400,
+      "isMultilang": true
+    },
+    "addWhiteLineForImage": {
+      "notNull": true,
+      "type": "bool",
+      "default": false,
+      "audited": false,
+      "readOnly": false,
+      "isMultilang": true,
+      "tooltip": false
+    },
+    "categoryBackgroundImage": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "categoryProductImage": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "categoryLogoImage": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "addLogoUrl": {
+      "type": "text",
+      "rows": 30,
+      "lengthOfCut": 400,
+      "isMultilang": true
+    },
+    "logoStyleHeightAndPosition": {
+      "type": "varchar",
+      "trim": true,
+      "isMultilang": true
+    },
+    "boxImageOne": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "boxContentOne": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "boxImageTwo": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "boxContentTwo": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "boxImageThree": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "boxContentThree": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "boxImageFour": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "boxContentFour": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "boxImageFive": {
+      "type": "image",
+      "previewSize": "small"
+    },
+    "boxContentFive": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "styleForFullElement": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "description": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
+    },
+    "nameHeaderType": {
+      "type": "enum",
+      "default": "H1",
+      "prohibitedEmptyValue": true,
+      "options": [
+        "H1",
+        "H2"
+      ],
+      "optionColors": {
+        "H1": "333333",
+        "H2": "333333"
+      }
     }
+  },
+  "links": {
+    "distScopeTypes": {
+      "type": "hasMany",
+      "foreign": "category",
+      "entity": "DistScopeType",
+      "audited": false
+    },
+    "justOneBanner": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "categoryBackgroundImage": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "categoryProductImage": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "categoryLogoImage": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "boxImageOne": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "boxImageTwo": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "boxImageThree": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "boxImageFour": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    },
+    "boxImageFive": {
+      "type": "belongsTo",
+      "entity": "Attachment",
+      "skipOrmDefs": true
+    }
+  }
 }

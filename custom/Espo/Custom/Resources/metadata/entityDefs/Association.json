@@ -6,5 +6,13 @@
             "name"
         ],
         "fullTextSearch": false
+    },
+    "fields": {
+        "name": {
+            "isMultilang": true,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false
+        }
     }
 }

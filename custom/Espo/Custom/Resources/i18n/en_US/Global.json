@@ -11,7 +11,8 @@
         "DAM": "DAM",
         "Attributes": "Attributes",
         "Products": "Products",
-        "Activity": "Activity"
+        "Activity": "Activity",
+        "PC-Konfiguration": "PC-Konfiguration"
     },
     "scopeNames": {
         "Product": "Product",
@@ -35,7 +36,9 @@
         "Packaging": "Packaging",
         "Tax": "Tax",
         "Template": "Template",
-        "ProductSerie": "Product Serie"
+        "ProductSerie": "Product Serie",
+        "Testing": "Testing",
+        "KsBadgets": "Badget"
     },
     "scopeNamesPlural": {
         "Product": "Products",
@@ -59,7 +62,9 @@
         "Packaging": "Packagings",
         "Tax": "Taxes",
         "Template": "Templates",
-        "ProductSerie": "Product Series"
+        "ProductSerie": "Product Series",
+        "Testing": "Testings",
+        "KsBadgets": "Badgets"
     },
     "unit Length": {
         "mm": "mm",

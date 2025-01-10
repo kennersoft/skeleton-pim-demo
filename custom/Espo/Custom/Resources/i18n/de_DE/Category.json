@@ -1,38 +1,71 @@
 {
-    "exceptions": {
-        "You can not change parent category in root category with linked products": "Sie können die Hauptkategorie für eine Stammkategorie mit den verknüpften Produkten nicht ändern"
-    },
-    "fields": {
-        "categoryRoot": "Stammkategorie",
-        "createdAt": "erstellt am",
-        "createdBy": "erstellt von",
-        "descriptionDeDe": "Beschreibung DeDe",
-        "descriptionEnUs": "Beschreibung EnUs",
-        "descriptionEsEs": "Beschreibung EsEs",
-        "descriptionFrFr": "Beschreibung FrFr",
-        "isActive": "Aktiv",
-        "modifiedAt": "geändert am",
-        "modifiedBy": "geändert von",
-        "nameDeDe": "NameDeDe",
-        "nameEnUs": "Name EnUs",
-        "nameEsEs": "Name EsEs",
-        "nameFrFr": "Name FrFr",
-        "products": "Produkte",
-        "rootCategories": "Stammkategorien",
-        "scope": "Umfang",
-        "teams": "Teams",
-        "markupType": "Typ",
-        "markupValue": "Wert"
-    },
-    "labels": {
-        "Create Category": "Kategorie erstellen"
-    },
-    "links": {
-        "categoryRoot": "Stammkategorie",
-        "createdBy": "erstellt von",
-        "modifiedBy": "geändert von",
-        "products": "Produkte",
-        "rootCategories": "Stammkategorien",
-        "teams": "Teams"
+  "exceptions": {
+    "You can not change parent category in root category with linked products": "Sie können die Hauptkategorie für eine Stammkategorie mit den verknüpften Produkten nicht ändern"
+  },
+  "fields": {
+    "categoryRoot": "Stammkategorie",
+    "createdAt": "erstellt am",
+    "createdBy": "erstellt von",
+    "descriptionDeDe": "Beschreibung DeDe",
+    "descriptionEnUs": "Beschreibung EnUs",
+    "descriptionEsEs": "Beschreibung EsEs",
+    "descriptionFrFr": "Beschreibung FrFr",
+    "isActive": "Aktiv",
+    "modifiedAt": "geändert am",
+    "modifiedBy": "geändert von",
+    "nameDeDe": "NameDeDe",
+    "nameEnUs": "Name EnUs",
+    "nameEsEs": "Name EsEs",
+    "nameFrFr": "Name FrFr",
+    "products": "Produkte",
+    "rootCategories": "Stammkategorien",
+    "scope": "Umfang",
+    "teams": "Teams",
+    "markupType": "Typ",
+    "markupValue": "Wert",
+    "distScopeTypes": "DistScopeTypes",
+    "metaTitle": "Meta Title",
+    "metaDescription": "Meta Description",
+    "seoUrl": "SEO URL",
+    "metaKeywords": "Meta Keywords",
+    "description2": "Upper description",
+    "description": "Lower description",
+    "justOneBanner": "Just one banner",
+    "oneBannerLink": "One banner link",
+    "addWhiteLineForImage": "Add white line for image",
+    "categoryBackgroundImage": "Category background image",
+    "categoryProductImage": "Category product image",
+    "categoryLogoImage": "Category logo image",
+    "addLogoUrl": "Add logo url",
+    "logoStyleHeightAndPosition": "Logo style height and position",
+    "boxImageOne": "Box image one",
+    "boxContentOne": "Box content one",
+    "boxImageTwo": "Box image wwo",
+    "boxContentTwo": "Box content two",
+    "boxImageThree": "Box image three",
+    "boxContentThree": "BoxContent three",
+    "boxImageFour": "Box image four",
+    "boxContentFour": "Box content four",
+    "boxImageFive": "Box image five",
+    "boxContentFive": "Box content five",
+    "styleForFullElement": "Style for full element",
+    "nameHeaderType": "Name-Header-Typ"
+  },
+  "labels": {
+    "Create Category": "Kategorie erstellen"
+  },
+  "links": {
+    "categoryRoot": "Stammkategorie",
+    "createdBy": "erstellt von",
+    "modifiedBy": "geändert von",
+    "products": "Produkte",
+    "rootCategories": "Stammkategorien",
+    "teams": "Teams"
+  },
+  "options": {
+    "nameHeaderType": {
+      "H1": "H1",
+      "H2": "H2"
     }
+  }
 }

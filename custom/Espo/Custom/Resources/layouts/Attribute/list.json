@@ -4,12 +4,15 @@
         "link": true
     },
     {
+        "name": "code"
+    },
+    {
         "name": "attributeGroup"
     },
     {
         "name": "type"
     },
     {
-        "name": "code"
+        "name": "icecatFeature"
     }
 ]

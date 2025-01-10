@@ -1,22 +1,118 @@
 [
-    {
-        "rows": [
-            [
-                {
-                    "name": "type"
-                },
-                {
-                    "name": "code"
-                }
-            ],
-            [
-                {
-                    "name": "attributeGroup"
-                },
-                false
-            ]
-        ],
-        "style": "default",
-        "label": "Overview"
-    }
+  {
+    "rows": [
+      [
+        {
+          "name": "name"
+        },
+        {
+          "name": "code"
+        }
+      ],
+      [
+        {
+          "name": "unit"
+        },
+        {
+          "name": "typeValue"
+        }
+      ],
+      [
+        {
+          "name": "attributeGroup"
+        },
+        {
+          "name": "icecatFeature"
+        }
+      ],
+      [
+        {
+          "name": "productFamily"
+        },
+        {
+          "name": "requiredInProductFamily"
+        }
+      ],
+      [
+        {
+          "name": "tooltipText"
+        },
+        false
+      ]
+    ],
+    "style": "default",
+    "label": "Overview",
+    "multilangTabsActive": true
+  },
+  {
+    "rows": [
+      [
+        {
+          "name": "symbolImage"
+        },
+        {
+          "name": "sort"
+        },
+        {
+          "name": "symbolTextColor"
+        },
+        {
+          "name": "symbolBackgroundColor"
+        }
+      ],
+      [
+        {
+          "name": "symbolName"
+        },
+        {
+          "name": "selectSymbolType"
+        },
+        {
+          "name": "listSymbolText"
+        },
+        false
+      ],
+      [
+        {
+          "name": "quickSymbolText"
+        },
+        {
+          "name": "quickSymbolImage"
+        },
+        false,
+        false
+      ]
+    ],
+    "style": "info",
+    "dynamicLogicVisible": null,
+    "customLabel": "Symbol design",
+    "multilangTabsActive": true
+  },
+  {
+    "rows": [
+      [
+        {
+          "name": "quickSymbolMode"
+        },
+        {
+          "name": "symbol_group_id"
+        }
+      ],
+      [
+        {
+          "name": "listSymbolMode"
+        },
+        false
+      ],
+      [
+        {
+          "name": "inProductBagets"
+        },
+        false
+      ]
+    ],
+    "style": "success",
+    "dynamicLogicVisible": null,
+    "customLabel": "Symbol config"
+  }
 ]

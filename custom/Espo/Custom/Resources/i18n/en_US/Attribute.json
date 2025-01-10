@@ -1,5 +1,35 @@
 {
     "labels": {
         "Create Attribute": "Create Attribute"
+    },
+    "fields": {
+        "channelProductAttributeValues": "Attributwerte des Produktkanals",
+        "createdAt": "erstellt am",
+        "createdBy": "erstellt von",
+        "isSystem": "Ist das System",
+        "modifiedAt": "geändert am",
+        "modifiedBy": "geändert von",
+        "productAttributes": "Produktattribute",
+        "productAttributeValues": "Werte des Produktattributes",
+        "productFamilyAttributes": "Attribute der Produktfamilie",
+        "products": "Produkte",
+        "typeValue": "Possible value",
+        "type": "Typ",
+        "quickSymbolMode": "Add Attribute to search badgets",
+        "listSymbolMode": "Add Attribute to product families badgets",
+        "inProductBagets": "Add Attribute to product badgets",
+        "listSymbolText": "Show text in popup window",
+        "symbolImage": "Symbol image",
+        "symbolName": "Symbol name",
+        "quickSymbolText": "Quick symbol text",
+        "sort": "Sort",
+        "symbolTextColor": "Symbol text color",
+        "selectSymbolType": "Select symbol type",
+        "quickSymbolImage": "Quick symbol image",
+        "symbolBackgroundColor": "Symbol background color",
+        "symbol_group_id": "Symbol group ID"
+    },
+    "messages": {
+        "deactivatingConfigurationComponent": "<strong>WARNING:</strong> You want to deactivate this product, which is used in the following Configurations:"
     }
 }

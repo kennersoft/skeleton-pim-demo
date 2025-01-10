@@ -5,7 +5,9 @@
                 {
                     "name": "isActive"
                 },
-                false
+                {
+                    "name": "multipleInConfigurator"
+                }
             ],
             [
                 {
@@ -22,15 +24,50 @@
                 false
             ],
             [
+                false,
+                false
+            ],
+            [
                 {
-                    "name": "nameEnUs"
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionDeDe"
                 },
                 false
             ],
             [
                 {
-                    "name": "description",
-                    "fullWidth": true
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionFrFr"
+                },
+                {
+                    "name": "descriptionEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionItIt"
+                },
+                {
+                    "name": "descriptionEnGb"
                 }
             ]
         ],

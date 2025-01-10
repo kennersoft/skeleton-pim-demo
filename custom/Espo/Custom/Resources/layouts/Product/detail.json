@@ -7,148 +7,594 @@
                 },
                 {
                     "name": "type"
+                },
+                {
+                    "name": "productType"
+                },
+                {
+                    "name": "pcConfigState"
                 }
-            ],
-            [
-                {
-                    "name": "name"
-                },
-                {
-                    "name": "image"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
             ],
             [
                 {
                     "name": "sku"
                 },
-                false
+                {
+                    "name": "ean"
+                },
+                {
+                    "name": "iceCatId"
+                },
+                {
+                    "name": "mpn"
+                }
             ],
             [
                 {
                     "name": "catalog"
                 },
-                false
-            ],
-            [
-                {
-                    "name": "mpn"
-                },
-                {
-                    "name": "ean"
-                }
-            ],
-            [
-                {
-                    "name": "productStatus"
-                },
-                {
-                    "name": "productSerie"
-                }
-            ],
-            [
                 {
                     "name": "brand"
                 },
                 {
                     "name": "productFamily"
-                }
-            ],
-            [
-                {
-                    "name": "measuringUnit"
                 },
                 {
-                    "name": "packaging"
+                    "name": "productGroup"
                 }
             ],
             [
                 {
-                    "name": "tax"
+                    "name": "connectorGroup"
+                }
+            ],
+            [
+                {
+                    "name": "pccarea"
                 },
                 {
-                    "name": "uvp"
-                }
-            ],
-            [
-                {
-                    "name": "price"
+                    "name": "flagsCategories"
                 },
                 {
-                    "name": "finalPrice"
-                }
-            ],
-            [
-                {
-                    "name": "basePriceAmount"
+                    "name": "productStatus"
                 },
                 {
-                    "name": "packedAmount"
+                    "name": "weight"
                 }
             ],
             [
                 {
-                    "name": "deliveryStatus"
+                    "name": "onBoardComponent"
                 },
                 {
-                    "name": "supplied"
-                }
-            ],
-            [
-                {
-                    "name": "deliveryStatusDeDe"
+                    "name": "displacement"
                 },
                 {
-                    "name": "suppliedDeDe"
-                }
-            ],
-            [
-                {
-                    "name": "deliveryStatusEnUs"
+                    "name": "aBEEGBENr"
                 },
                 {
-                    "name": "suppliedEnUs"
+                    "name": "aBS"
                 }
             ],
             [
                 {
-                    "name": "amount"
+                    "name": "deliveryTime"
                 },
                 {
-                    "name": "tag"
+                    "name": "ksconfigurableproduct"
+                },
+                {
+                    "name": "isInPcConfigurationDisable"
+                },
+                {
+                    "name": "toCartButtonIsShow"
                 }
             ],
             [
                 {
-                    "name": "longDescription",
-                    "fullWidth": true
-                }
-            ],
-            [
+                    "name": "productionStart"
+                },
                 {
-                    "name": "longDescriptionDeDe",
-                    "fullWidth": true
-                }
-            ],
-            [
-                {
-                    "name": "longDescriptionEnUs",
-                    "fullWidth": true
+                    "name": "productionEnd"
                 }
             ]
         ],
         "style": "default",
         "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "scopeprice"
+                },
+                {
+                    "name": "weclappPrice"
+                },
+                {
+                    "name": "usedPrice"
+                }
+            ],
+            [
+                {
+                    "name": "finalPrice"
+                },
+                {
+                    "name": "marge"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "pcConfigurationFinalPriceGross"
+                },
+                {
+                    "name": "pcConfigurationFinalPrice"
+                },
+                {
+                    "name": "pcConfigurationMarge"
+                },
+                {
+                    "name": "pcConfigurationPrice"
+                }
+            ],
+            [
+                {
+                    "name": "angebotPriceGross"
+                },
+                {
+                    "name": "angebotPrice"
+                },
+                {
+                    "name": "margeAngebot"
+                },
+                {
+                    "name": "strikePrice"
+                }
+            ],
+            [
+                {
+                    "name": "amazonAngebotprice"
+                },
+                {
+                    "name": "amazonMarge"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "mmsAngebotprice"
+                },
+                {
+                    "name": "mmsMarge"
+                },
+                false,
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "multilangTabsActive": false,
+        "customLabel": "Prices"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "stockManual"
+                },
+                {
+                    "name": "weclappStock"
+                },
+                {
+                    "name": "usedStock"
+                },
+                {
+                    "name": "deploymentTime"
+                }
+            ]
+        ],
+        "style": "info",
+        "label": "Stock"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "nameManual"
+                }
+            ],
+            [
+                {
+                    "name": "productsoptionsvaluesnamelong"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "baseName"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "productsoptionsvaluesnameshort"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "multilangTabsActive": true,
+        "customLabel": "Names"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "shortInfo"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "longDescription"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "type",
+                    "value": [
+                        "simpleProduct",
+                        "laptopBareboneConfiguration",
+                        "nucbrixBareboneConfiguration"
+                    ]
+                }
+            ]
+        },
+        "multilangTabsActive": true,
+        "label": "Descriptions"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "shortDescription"
+                },
+                {
+                    "name": "shortDescriptionManual"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "type",
+                    "value": [
+                        "simpleProduct",
+                        "pcConfigurationProduct",
+                        "laptopBareboneConfiguration",
+                        "nucbrixBareboneConfiguration"
+                    ]
+                }
+            ]
+        },
+        "multilangTabsActive": true,
+        "label": "Short Description"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "shortDescriptionAddon"
+                },
+                {
+                    "name": "shortDescriptionAddonManual"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "type",
+                    "value": [
+                        "pcConfigurationProduct"
+                    ]
+                }
+            ]
+        },
+        "multilangTabsActive": true,
+        "label": "Short Description Addon"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "middleDescription"
+                },
+                {
+                    "name": "middleDescriptionManual"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "type",
+                    "value": [
+                        "pcConfigurationProduct"
+                    ]
+                }
+            ]
+        },
+        "multilangTabsActive": true,
+        "label": "Middle Description"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "descriptionManual"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "type",
+                    "value": [
+                        "pcConfigurationProduct"
+                    ]
+                }
+            ]
+        },
+        "multilangTabsActive": true,
+        "label": "Description"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "detailDescription"
+                },
+                {
+                    "name": "detailDescriptionManual"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "type",
+                    "value": [
+                        "pcConfigurationProduct"
+                    ]
+                }
+            ]
+        },
+        "multilangTabsActive": true,
+        "label": "Detail Description"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "powerbaroffice"
+                }
+            ],
+            [
+                {
+                    "name": "powerbarmultimedia"
+                }
+            ],
+            [
+                {
+                    "name": "powerbargaming"
+                }
+            ],
+            [
+                {
+                    "name": "powerbarworkstation"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "productFamilyId",
+                    "value": [
+                        "1",
+                        "3",
+                        "4",
+                        "76"
+                    ]
+                }
+            ]
+        },
+        "label": "Powerbar"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "amazonComputerCpuManufacturer"
+                },
+                {
+                    "name": "amazonComputerCpuSpeed"
+                },
+                {
+                    "name": "amazonComputerCpuType"
+                },
+                {
+                    "name": "amazonProcessorCount"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "productFamilyId",
+                    "value": "1"
+                }
+            ]
+        },
+        "label": "Amazon properties"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "graphicsCardInterface1"
+                },
+                {
+                    "name": "graphicsRam1"
+                },
+                false,
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "productFamilyId",
+                    "value": "3"
+                }
+            ]
+        },
+        "label": "Amazon properties"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "computerMemorySize"
+                },
+                {
+                    "name": "systemRamType1"
+                },
+                false,
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "productFamilyId",
+                    "value": "4"
+                }
+            ]
+        },
+        "label": "Amazon properties"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "hardDiskSize1"
+                },
+                false,
+                false,
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "productFamilyId",
+                    "value": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "label": "Amazon properties"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "additionalDrives1"
+                },
+                false,
+                false,
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "productFamilyId",
+                    "value": "9"
+                }
+            ]
+        },
+        "label": "Amazon properties"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "itemLength"
+                },
+                {
+                    "name": "itemWidth"
+                },
+                {
+                    "name": "itemHeight"
+                },
+                {
+                    "name": "itemWeight"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "productFamilyId",
+                    "value": "77"
+                }
+            ]
+        },
+        "label": "Amazon properties"
     }
 ]

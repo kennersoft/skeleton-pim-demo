@@ -1,25 +1,72 @@
 [
     {
-        "name": "name",
-        "link": true
+        "name": "image",
+        "width": 9
     },
     {
-        "name": "image"
-    },
-    {
-        "name": "tag",
+        "name": "flagsCategories",
+        "width": 10,
         "notSortable": true
     },
     {
-        "name": "catalog"
+        "name": "pcConfigState",
+        "width": 5
     },
     {
-        "name": "sku"
+        "name": "deliveryTime",
+        "width": 5
     },
     {
-        "name": "type"
+        "name": "name",
+        "width": 22,
+        "link": true
     },
     {
-        "name": "isActive"
+        "name": "sku",
+        "width": 8
+    },
+    {
+        "name": "ean",
+        "width": 8
+    },
+    {
+        "name": "isQualityErrors",
+        "align": "center",
+        "widthPx": 40,
+        "noLabel": true
+    },
+    {
+        "name": "price",
+        "width": 7
+    },
+    {
+        "name": "scopeprice",
+        "width": 7
+    },
+    {
+        "name": "usedPrice",
+        "width": 8
+    },
+    {
+        "name": "isInPcConfigurationDisable",
+        "align": "center",
+        "widthPx": 40,
+        "noLabel": true
+    },
+    {
+        "name": "isActive",
+        "align": "center",
+        "widthPx": 40,
+        "noLabel": true
+    },
+    {
+        "name": "pccarea",
+        "width": 10,
+        "notSortable": true
+    },
+    {
+        "name": "calculatorData",
+        "widthPx": 40,
+        "noLabel": true
     }
 ]

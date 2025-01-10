@@ -1,0 +1,13 @@
+.idea/
+.DS_Store
+
+data/cache/
+data/logs/
+data/upload/
+data/.backup/
+data/preferences/
+data/dam/public/
+data/dam/private/
+data/dam/thumbs/
+
+/vendor/

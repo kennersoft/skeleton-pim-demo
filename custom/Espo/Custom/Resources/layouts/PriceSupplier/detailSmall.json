@@ -1,0 +1,47 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "nameDeDe"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                false
+            ],
+            [
+                false,
+                false
+            ],
+            [
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "nameEnGb"
+                },
+                false
+            ]
+        ]
+    }
+]

@@ -1,5 +1,1818 @@
 {
     "kanbanViewMode": false,
     "color": null,
-    "iconClass": "fas fa-box-open"
+    "iconClass": "fas fa-box-open",
+    "dynamicLogic": {
+        "fields": {
+            "isActive": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isEmpty",
+                            "attribute": "id"
+                        }
+                    ]
+                }
+            },
+            "connectorGroup": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "catalogId",
+                            "data": {
+                                "field": "catalog",
+                                "values": {
+                                    "catalogName": "Connectors"
+                                }
+                            },
+                            "value": "60dc5626644efb6aa"
+                        }
+                    ]
+                }
+            },
+            "pccarea": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "in",
+                                    "attribute": "type",
+                                    "value": [
+                                        "laptopBareboneConfiguration",
+                                        "nucbrixBareboneConfiguration"
+                                    ]
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "isNotEmpty",
+                                            "attribute": "id"
+                                        },
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "catalogId",
+                            "value": "60dc5626644efb6aa"
+                        }
+                    ]
+                }
+            },
+            "productFamily": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "sku": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "ksconfigurableproduct": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "and",
+                            "value": [
+                                {
+                                    "type": "or",
+                                    "value": [
+                                        {
+                                            "type": "isNotEmpty",
+                                            "attribute": "id"
+                                        },
+                                        {
+                                            "type": "isNotEmpty",
+                                            "attribute": "_duplicatingEntityId"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "in",
+                                    "attribute": "type",
+                                    "value": [
+                                        "pcConfigurationProduct"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "iceCatId": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "isInPcConfigurationDisable": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "toCartButtonIsShow": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "manuallyConfigureFields": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "manuallyChangedAttributes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "scopeLastUpdate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "weclappPrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "price": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "scopeprice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "usedPrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "deploymentTime": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "usedStock",
+                            "value": "weclappStockExtended"
+                        }
+                    ]
+                }
+            },
+            "finalPrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "onBoardComponent": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "productFamilyId",
+                            "value": [
+                                "3",
+                                "4",
+                                "20"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "marge": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productType": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "pcConfigurationPrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "pcConfigurationFinalPrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "pcConfigurationFinalPriceGross": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "pcConfigurationMarge": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "angebotPrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "angebotPriceGross": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "margeAngebot": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "strikePrice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "amazonAngebotprice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "amazonMarge": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "mmsAngebotprice": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "mmsMarge": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "flagsCategories": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnameshort": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnameshortDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnameshortEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnameshortFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnameshortItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnameshortEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnamelong": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnamelongDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnamelongEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnamelongFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnamelongItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "productsoptionsvaluesnamelongEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortInfo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortInfoDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortInfoEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortInfoFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortInfoItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortInfoEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "longDescription": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "longDescriptionDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "longDescriptionEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "longDescriptionFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "longDescriptionItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "longDescriptionEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "simpleProduct",
+                                "laptopBareboneConfiguration",
+                                "nucbrixBareboneConfiguration"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescription": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionDeDe": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionEnGb": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionFrFr": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionItIt": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionEsEs": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "type",
+                            "value": [
+                                "pcConfigurationProduct"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionManual": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionManualDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionManualEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionManualFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionManualItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionManualEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionAddon": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionAddonDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionAddonEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionAddonFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionAddonItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "shortDescriptionAddonEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "middleDescription": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "middleDescriptionDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "middleDescriptionEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "middleDescriptionFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "middleDescriptionItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "middleDescriptionEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "descriptionDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "descriptionEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "descriptionFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "descriptionItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "descriptionEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "detailDescription": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "detailDescriptionDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "detailDescriptionEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "detailDescriptionFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "detailDescriptionItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "detailDescriptionEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "baseName": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "baseNameDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "baseNameEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "baseNameFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "baseNameItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "baseNameEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameManual": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameManualDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameManualEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameManualFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameManualItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameManualEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "name": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "type",
+                                    "value": "pcConfigurationProduct"
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        },
+                                        {
+                                            "type": "or",
+                                            "value": [
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "id"
+                                                },
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "_duplicatingEntityId"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameDeDe": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "type",
+                                    "value": "pcConfigurationProduct"
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        },
+                                        {
+                                            "type": "or",
+                                            "value": [
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "id"
+                                                },
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "_duplicatingEntityId"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameEnGb": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "type",
+                                    "value": "pcConfigurationProduct"
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        },
+                                        {
+                                            "type": "or",
+                                            "value": [
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "id"
+                                                },
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "_duplicatingEntityId"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameFrFr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "type",
+                                    "value": "pcConfigurationProduct"
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        },
+                                        {
+                                            "type": "or",
+                                            "value": [
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "id"
+                                                },
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "_duplicatingEntityId"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameItIt": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "type",
+                                    "value": "pcConfigurationProduct"
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        },
+                                        {
+                                            "type": "or",
+                                            "value": [
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "id"
+                                                },
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "_duplicatingEntityId"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "nameEsEs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "type",
+                                    "value": "pcConfigurationProduct"
+                                },
+                                {
+                                    "type": "and",
+                                    "value": [
+                                        {
+                                            "type": "equals",
+                                            "attribute": "type",
+                                            "value": "pcConfigurationProduct"
+                                        },
+                                        {
+                                            "type": "or",
+                                            "value": [
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "id"
+                                                },
+                                                {
+                                                    "type": "isNotEmpty",
+                                                    "attribute": "_duplicatingEntityId"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "displacement": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                },
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "productFamilyId",
+                            "data": {
+                                "field": "productFamily",
+                                "values": {
+                                    "productFamilyName": "Motorcycle"
+                                }
+                            },
+                            "value": "66e13db0c0b9a0214"
+                        }
+                    ]
+                }
+            },
+            "aBEEGBENr": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "productFamilyId",
+                            "data": {
+                                "field": "productFamily",
+                                "values": {
+                                    "productFamilyName": "Motorcycle"
+                                }
+                            },
+                            "value": "66e13db0c0b9a0214"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "productFamilyId",
+                            "data": {
+                                "field": "productFamily",
+                                "values": {
+                                    "productFamilyName": "Motorcycle"
+                                }
+                            },
+                            "value": "66e13db0c0b9a0214"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "pcConfigurationProduct"
+                        }
+                    ]
+                }
+            },
+            "weight": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "simpleProduct"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "boolFilterList": [
+        "__APPEND__",
+        "withoutAssociatedProducts",
+        "withoutProductAttributes",
+        "DataQualityImageCount",
+        "requiredAttributesNotFilled",
+        "duplicateMpn",
+        "duplicateTitle",
+        "duplicateSku",
+        "duplicateEan",
+        "DataQualitySpell",
+        "DataQualityReqSku",
+        "DataQualityReqEan",
+        "DataQualityReqMpn",
+        "DataQualityImageLow",
+        "DataQualityImageHigh",
+        "DataQualityImageRatio",
+        "DataQualityImageType",
+        "DataQualityImageBig",
+        "DataQualityImageSmall",
+        "DataQualityChannel",
+        "DataQualityDeactivateComponent",
+        "DataQualityPcAreaComponent",
+        "DataQualityEmptyPcArea",
+        "DataQualityNotSavedIcecat",
+        "notDisabledInConfiguration",
+        "byComponentSku",
+        "zeroPrice",
+        "incorrectSKUinITscope",
+        "notUsedInTemplates"
+    ],
+    "hiddenBoolFilterList": [
+        "__APPEND__",
+        "notDisabledInConfiguration",
+        "byComponentSku",
+        "zeroPrice",
+        "notUsedInTemplates"
+    ]
 }

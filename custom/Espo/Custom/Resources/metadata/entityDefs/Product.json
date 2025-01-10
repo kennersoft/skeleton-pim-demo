@@ -3,43 +3,35 @@
         "name": {
             "type": "varchar",
             "audited": true,
-            "readOnly": false,
-            "tooltip": false
+            "tooltip": true,
+            "maxLength": 300
+        },
+        "nameManual": {
+            "type": "varchar",
+            "trim": true,
+            "isMultilang": true,
+            "maxLength": 300
         },
         "sku": {
-            "audited": true,
-            "readOnly": false,
-            "tooltip": false
+            "audited": true
         },
         "attachments": {
             "layoutListDisabled": true,
-            "type": "attachmentMultiple",
-            "required": false,
-            "sourceList": [],
-            "tooltip": false,
-            "isCustom": true
+            "type": "attachmentMultiple"
         },
         "tag": {
             "options": [
                 "blue",
                 "yellow",
                 "green",
-                "red",
-                "your_tag1",
-                "your_tag2"
+                "red"
             ],
             "optionColors": {
                 "blue": "0000FF",
                 "yellow": "FFFF00",
                 "green": "008000",
-                "red": "FF0000",
-                "your_tag1": "800000",
-                "your_tag2": "000080"
-            },
-            "storeArrayValues": true,
-            "required": false,
-            "readOnly": false,
-            "tooltip": false
+                "red": "FF0000"
+            }
         },
         "productStatus": {
             "options": [
@@ -57,13 +49,10 @@
                 "ready": "00FF00"
             },
             "audited": true,
-            "isSorted": false,
-            "readOnly": false,
-            "tooltip": false
+            "isSorted": false
         },
         "deliveryStatus": {
             "type": "enum",
-            "required": false,
             "fontSize": 1,
             "options": [
                 "Standard",
@@ -83,49 +72,174 @@
                 "If out of Stock, offline",
                 "If out of Stock, not orderable"
             ],
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true,
             "isMultilang": true
         },
-        "supplied": {
-            "type": "multiEnum",
-            "storeArrayValues": true,
+        "stock": {
+            "type": "int"
+        },
+        "scopeLastUpdate": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "priceSupplier": {
+            "type": "link"
+        },
+        "productModel": {
+            "type": "varchar"
+        },
+        "productParent": {
+            "readOnly": true
+        },
+        "price": {
+            "audited": true
+        },
+        "finalPrice": {
+            "readOnly": true,
+            "audited": true
+        },
+        "shortInfo": {
+            "type": "wysiwyg",
+            "displayedHeight": 400,
+            "showMoreDisabled": false,
+            "isMultilang": true
+        },
+        "shortDescription": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "isMultilang": true
+        },
+        "description": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "readOnly": true,
+            "isMultilang": true
+        },
+        "detailDescription": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "readOnly": true,
+            "isMultilang": true
+        },
+        "shortDescriptionManual": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "isMultilang": true
+        },
+        "shortDescriptionAddonManual": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "isMultilang": true
+        },
+        "middleDescriptionManual": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "isMultilang": true
+        },
+        "descriptionManual": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "isMultilang": true
+        },
+        "detailDescriptionManual": {
+            "type": "wysiwyg",
+            "rows": 30,
+            "lengthOfCut": 400,
+            "isMultilang": true
+        },
+        "brand": {
+            "required": true
+        },
+        "baseName": {
+            "type": "varchar",
+            "isMultilang": true
+        },
+        "productBagetId": {
+            "type": "varchar",
             "required": false,
-            "fontSize": 1,
-            "options": [
-                "Remote Control (with batteries)",
-                "Documentation",
-                "Headset",
-                "Charger",
-                "Battery",
-                "Lens",
-                "Power cord"
-            ],
-            "optionsDeDe": [
-                "Remote Control (with batteries)",
-                "Documentation",
-                "Headset",
-                "Charger",
-                "Battery",
-                "Lens",
-                "Power cord"
-            ],
-            "optionsEnUs": [
-                "Remote Control (with batteries)",
-                "Documentation",
-                "Headset",
-                "Charger",
-                "Battery",
-                "Lens",
-                "Power cord"
-            ],
+            "trim": true,
+            "audited": false,
+            "readOnly": false,
+            "isMultilang": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "weight": {
+            "notNull": false,
+            "type": "float",
+            "default": 0,
+            "required": false,
             "audited": false,
             "readOnly": false,
             "tooltip": false,
-            "isCustom": true,
-            "isMultilang": true
+            "isCustom": true
+        },
+        "productFamily": {
+            "layoutFiltersDisabled": true
+        },
+        "itemLength": {
+            "type": "int",
+            "required": false,
+            "disableFormatting": false,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "itemWidth": {
+            "type": "int",
+            "required": false,
+            "disableFormatting": false,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "itemHeight": {
+            "type": "int",
+            "required": false,
+            "disableFormatting": false,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "itemWeight": {
+            "type": "int",
+            "required": false,
+            "disableFormatting": false,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "ksBadgetss": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true
+        },
+        "productType": {
+            "type": "enum",
+            "required": false,
+            "fontSize": 1,
+            "prohibitedEmptyValue": true,
+            "options": [
+                "STORABLE",
+                "BASIC"
+            ],
+            "default": "STORABLE",
+            "isSorted": false
+        },
+        "productConfiguration": {
+            "type": "link"
         }
     },
     "links": {
@@ -135,6 +249,32 @@
             "foreign": "parent",
             "layoutRelationshipsDisabled": true,
             "relationName": "attachments"
+        },
+        "priceSupplier": {
+            "type": "belongsTo",
+            "foreign": "products",
+            "entity": "PriceSupplier"
+        },
+        "ksBadgetss": {
+            "type": "hasMany",
+            "relationName": "productKsBadgets",
+            "foreign": "products",
+            "entity": "KsBadgets",
+            "audited": false
+        },
+        "productConfiguration": {
+            "type": "belongsTo",
+            "foreign": "products",
+            "entity": "productConfiguration",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "indexes": {
+        "sku": {
+            "columns": [
+                "sku"
+            ]
         }
     },
     "collection": {
@@ -145,6 +285,6 @@
             "sku",
             "ean"
         ],
-        "fullTextSearch": false
+        "fullTextSearch": true
     }
 }

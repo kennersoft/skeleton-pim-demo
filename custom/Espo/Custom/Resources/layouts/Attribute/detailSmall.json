@@ -1,0 +1,62 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "code"
+                }
+            ],
+            [
+                {
+                    "name": "unit"
+                },
+                {
+                    "name": "typeValue"
+                }
+            ],
+            [
+                {
+                    "name": "attributeGroup"
+                },
+                {
+                    "name": "icecatFeature"
+                }
+            ],
+            [
+                {
+                    "name": "productFamily"
+                },
+                {
+                    "name": "requiredInProductFamily"
+                }
+            ],
+            [
+                {
+                    "name": "nameDeDe"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

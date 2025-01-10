@@ -18,11 +18,39 @@
                 }
             ],
             [
+                false,
+                false
+            ],
+            [
                 {
-                    "name": "nameEnUs"
+                    "name": "nameFrFr"
                 },
                 {
-                    "name": "unitEnUs"
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
+            ],
+            [
+                {
+                    "name": "unitFrFr"
+                },
+                {
+                    "name": "unitEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "unitItIt"
+                },
+                {
+                    "name": "unitEnGb"
                 }
             ]
         ],

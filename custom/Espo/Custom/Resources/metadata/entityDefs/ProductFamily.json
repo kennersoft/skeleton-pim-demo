@@ -1,10 +1,101 @@
 {
-    "collection": {
-        "sortBy": "createdAt",
-        "asc": false,
-        "textFilterFields": [
-            "name"
-        ],
-        "fullTextSearch": false
+    "fields": {
+        "groupmasterid": {
+            "type": "int",
+            "required": true,
+            "default": 0
+        },
+        "image": {
+            "type": "image",
+            "previewSize": "small"
+        },
+        "copyids": {
+            "type": "text",
+            "rows": 30,
+            "lengthOfCut": 400
+        },
+        "amazonProperties": {
+            "type": "varchar"
+        },
+        "area": {
+            "type": "multiEnum",
+            "options": [
+                "Desktop",
+                "Mini_PC",
+                "Gaming",
+                "Notebook",
+                "Brix_Nuc",
+                "Laptop_B",
+                "Motorbike",
+                "Lever"
+            ],
+            "optionColors": {
+                "Desktop": "333333",
+                "Mini_PC": "333333",
+                "Gaming": "333333",
+                "Notebook": "333333",
+                "Brix_Nuc": "333333",
+                "Laptop_B": "333333",
+                "Motorbike": "330A12",
+                "Lever": "0B332F"
+            },
+            "audited": false,
+            "readOnly": false,
+            "isMultilang": false,
+            "tooltip": false
+        },
+        "distScopeTypes": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true
+        },
+        "group": {
+            "type": "enum",
+            "options": [
+                "basic",
+                "optional",
+                "accessories"
+            ],
+            "default": "basic"
+        },
+        "sorting": {
+            "type": "int"
+        },
+        "multipleInConfigurator": {
+            "type": "bool"
+        },
+        "defaultProductsInConfiguration": {
+            "type": "jsonObject"
+        },
+        "section": {
+            "options": [
+                "primary",
+                "optional",
+                "accessories"
+            ],
+            "optionColors": {
+                "primary": "333333",
+                "optional": "333333",
+                "accessories": "333333"
+            },
+            "default": "primary",
+            "isSorted": false,
+            "audited": false,
+            "readOnly": false,
+            "isMultilang": false,
+            "tooltip": false
+        },
+        "enableInListingAndSearch": {
+            "notNull": true,
+            "type": "bool",
+            "default": false,
+            "audited": false,
+            "readOnly": false,
+            "isMultilang": false,
+            "tooltip": false,
+            "isCustom": true
+        }
     }
 }

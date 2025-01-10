@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "products": "Products",
+        "sku": "SKU"
+    },
+    "links": {
+        "products": "Products"
+    },
+    "labels": {
+        "Create PriceSupplier": "Create Price Supplier"
+    }
+}

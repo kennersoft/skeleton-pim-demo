@@ -1,0 +1,63 @@
+<?php
+/**
+ * NavMenu
+ * Free Extension
+ * Copyright (c) TreoLabs GmbH
+ * Copyright (c) Kenner Soft Service GmbH
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+declare(strict_types=1);
+
+namespace NavMenu;
+
+use Treo\Core\ModuleManager\AbstractEvent;
+
+/**
+ * Class Event
+ *
+ * @author r.ratsun <r.ratsun@treolabs.com>
+ */
+class Event extends AbstractEvent
+{
+    /**
+     * @inheritdoc
+     */
+    public function afterInstall(): void
+    {
+        $this->prepareNavMenu();
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function afterDelete(): void
+    {
+    }
+
+    /**
+     * Prepare NavMenu
+     */
+    protected function prepareNavMenu(): void
+    {
+        // get config
+        $config = $this->getContainer()->get('config');
+
+        if (empty($config->get('twoLevelTabList', []))) {
+            $config->set('twoLevelTabList', $config->get('tabList', []));
+            $config->save();
+        }
+    }
+}

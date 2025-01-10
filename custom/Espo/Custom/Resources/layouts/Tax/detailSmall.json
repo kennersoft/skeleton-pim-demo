@@ -22,10 +22,24 @@
                 false
             ],
             [
-                {
-                    "name": "nameEnUs"
-                },
+                false,
                 false
+            ],
+            [
+                {
+                    "name": "nameFrFr"
+                },
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
             ]
         ],
         "style": "default",

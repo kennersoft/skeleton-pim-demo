@@ -16,16 +16,26 @@
                 }
             ],
             [
+                false,
                 {
                     "name": "nameDeDe"
-                },
-                false
+                }
             ],
             [
                 {
-                    "name": "nameEnUs"
+                    "name": "nameFrFr"
                 },
-                false
+                {
+                    "name": "nameEsEs"
+                }
+            ],
+            [
+                {
+                    "name": "nameItIt"
+                },
+                {
+                    "name": "nameEnGb"
+                }
             ]
         ],
         "style": "default",
