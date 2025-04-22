@@ -17,10 +17,7 @@
     "products": "Produkte",
     "typeValue": "Werttyp",
     "type": "Typ",
-    "quickSymbolMode": "Add Attribute to search badgets",
-    "listSymbolMode": "Add Attribute to product families badgets",
-    "inProductBagets": "Add Attribute to product badgets",
-    "listSymbolText": "Text im Popup-Fenster anzeigen"
+    "inProductBagets": "Add Attribute to product badgets"
   },
   "labels": {
     "Create Attribute": "Attribut erstellen",

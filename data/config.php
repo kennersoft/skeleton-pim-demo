@@ -200,7 +200,7 @@ return [
             ]
         ]
     ],
-    'cacheTimestamp' => 1736414659,
+    'cacheTimestamp' => 1744989637,
     'twoLevelTabList' => [
         0 => 'Association',
         1 => 'Attribute',
@@ -259,30 +259,8 @@ return [
     'timeFormat' => 'HH:mm',
     'addressFormat' => 1,
     'weekStart' => 1,
-    'KsAnkermanCatalogName' => 'Connectors',
-    'KsAnkermanCatalogId' => '60dc5626644efb6aa',
-    'KsAnkermanAssociationsName' => 'Connectors',
-    'KsAnkermanAssociationsId' => '61166f9023e2a44d8',
-    'KsAnkermanProductFamilyName' => 'Connectors',
-    'KsAnkermanProductFamilyId' => '61c1c99b35c72804b',
-    'KsAnkermanMainCatalogName' => 'Komponenten',
-    'KsAnkermanMainCatalogId' => '5d6519223c5d63a8a',
     'isConnectorsActive' => true,
-    'KsAnkerman162Connector1Name' => 'Audio In/Out 3Plugs Mainboard',
-    'KsAnkerman162Connector1Id' => '61e13472bef814db2',
-    'KsAnkerman162Connector2Name' => 'Audio Connectors',
-    'KsAnkerman162Connector2Id' => '61c1d0636de99c8ea',
-    'KsAnkerman162Connector3Name' => 'Audio Connectors Toslink',
-    'KsAnkerman162Connector3Id' => '61e125c35a2711ea3',
-    'KsAnkerman162Connector4Name' => 'Audio In/Out 3Plugs 7.1',
-    'KsAnkerman162Connector4Id' => '61e129fbd28293ea4',
-    'KsAnkerman162Connector5Name' => 'Audio In/Out 3Plugs 7.1 Front',
-    'KsAnkerman162Connector5Id' => '61e12a8e9e4b42160',
-    'KsAnkerman162Connector6Name' => 'Toslink S/PDIF',
-    'KsAnkerman162Connector6Id' => '61e12bc89d878b48f',
     'cronPhpVersion' => 'php7.3',
-    'ksDefaultMarge' => 21,
-    'ksDefaultMargeComponent' => 23,
     'dataQuality' => (object) [
         'imagesAllowTypes' => [
             0 => 'image/png',
@@ -300,23 +278,14 @@ return [
         'imagesMaxAspectRatio' => 2
     ],
     'integrations' => (object) [
-        'Neo4j' => true,
         'Shopware6-mysql' => true,
-        'Shopware6-api' => true,
-        'GoogleLanguageTranslator' => false,
-        'weclapp' => false
+        'Shopware6-api' => true
     ],
     'Shopware6MysqlHost' => 'localhost',
     'Shopware6MysqlPort' => 3306,
     'Shopware6MysqlDbname' => 'storepimdemo',
     'Shopware6MysqlUsername' => 'storepimdemo',
     'Shopware6MysqlPassword' => '7NxrAt3URoMj1zzu',
-    'googleServiceEndpoint' => NULL,
-    'googleApiKey' => NULL,
-    'googleFieldsToTranslate' => NULL,
-    'weclappTenant' => NULL,
-    'weclappAuthenticationToken' => NULL,
-    'weclappServiceEndpoint' => NULL,
     'isMultilangTabs' => true
 ];
 ?>

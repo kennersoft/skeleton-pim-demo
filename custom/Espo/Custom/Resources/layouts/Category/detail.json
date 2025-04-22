@@ -15,12 +15,6 @@
         },
         {
           "name": "code"
-        },
-        {
-          "name": "pcSorting"
-        },
-        {
-          "name": "image"
         }
       ],
       [
@@ -40,228 +34,17 @@
       [
         {
           "name": "name"
-        },
-        {
-          "name": "nameHeaderType"
         }
       ],
       [
         {
           "name": "description"
         }
-      ],
-      [
-        {
-          "name": "description2"
-        }
       ]
     ],
     "style": "default",
     "dynamicLogicVisible": null,
     "multilangTabsActive": true,
-    "customLabel": "NAME"
-  },
-  {
-    "rows": [
-      [
-        {
-          "name": "metaTitle"
-        }
-      ],
-      [
-        {
-          "name": "metaTitleDeDe"
-        },
-        {
-          "name": "metaTitleEnGb"
-        },
-        {
-          "name": "metaTitleEsEs"
-        },
-        {
-          "name": "metaTitleFrFr"
-        }
-      ],
-      [
-        {
-          "name": "metaTitleItIt"
-        },
-        false,
-        false,
-        false
-      ],
-      [
-        {
-          "name": "metaDescription"
-        }
-      ],
-      [
-        {
-          "name": "metaDescriptionDeDe"
-        },
-        {
-          "name": "metaDescriptionEnGb"
-        },
-        {
-          "name": "metaDescriptionEsEs"
-        },
-        {
-          "name": "metaDescriptionFrFr"
-        }
-      ],
-      [
-        {
-          "name": "metaDescriptionItIt"
-        },
-        false,
-        false,
-        false
-      ],
-      [
-        {
-          "name": "seoUrl"
-        },
-        false
-      ],
-      [
-        {
-          "name": "seoUrlDeDe"
-        },
-        {
-          "name": "seoUrlEnGb"
-        },
-        {
-          "name": "seoUrlEsEs"
-        },
-        {
-          "name": "seoUrlFrFr"
-        }
-      ],
-      [
-        {
-          "name": "seoUrlItIt"
-        },
-        false,
-        false,
-        false
-      ],
-      [
-        {
-          "name": "metaKeywords"
-        },
-        false
-      ]
-    ],
-    "style": "default",
-    "dynamicLogicVisible": null,
-    "multilangTabsActive": true,
-    "customLabel": "SEO"
-  },
-  {
-    "rows": [
-      [
-        {
-          "name": "justOneBanner"
-        }
-      ],
-      [
-        {
-          "name": "categoryBackgroundImage"
-        },
-        {
-          "name": "categoryProductImage"
-        },
-        {
-          "name": "categoryLogoImage"
-        }
-      ],
-      [
-        {
-          "name": "boxImageOne"
-        }
-      ],
-      [
-        {
-          "name": "boxImageTwo"
-        }
-      ],
-      [
-        {
-          "name": "boxImageThree"
-        }
-      ],
-      [
-        {
-          "name": "boxImageFour"
-        }
-      ],
-      [
-        {
-          "name": "boxImageFive"
-        }
-      ]
-    ],
-    "style": "default",
-    "dynamicLogicVisible": null,
-    "multilangTabsActive": false,
-    "customLabel": "Category image"
-  },
-  {
-    "rows": [
-      [
-        {
-          "name": "oneBannerLink"
-        }
-      ],
-      [
-        {
-          "name": "addWhiteLineForImage"
-        }
-      ],
-      [
-        {
-          "name": "addLogoUrl"
-        }
-      ],
-      [
-        {
-          "name": "logoStyleHeightAndPosition"
-        }
-      ],
-      [
-        {
-          "name": "boxContentOne"
-        }
-      ],
-      [
-        {
-          "name": "boxContentTwo"
-        }
-      ],
-      [
-        {
-          "name": "boxContentThree"
-        }
-      ],
-      [
-        {
-          "name": "boxContentFour"
-        }
-      ],
-      [
-        {
-          "name": "boxContentFive"
-        }
-      ],
-      [
-        {
-          "name": "styleForFullElement"
-        }
-      ]
-    ],
-    "style": "default",
-    "dynamicLogicVisible": null,
-    "multilangTabsActive": true,
-    "customLabel": "Category image texts"
+    "customLabel": "Name"
   }
 ]

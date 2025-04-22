@@ -6,32 +6,8 @@
             "tooltip": true,
             "maxLength": 300
         },
-        "nameManual": {
-            "type": "varchar",
-            "trim": true,
-            "isMultilang": true,
-            "maxLength": 300
-        },
         "sku": {
             "audited": true
-        },
-        "attachments": {
-            "layoutListDisabled": true,
-            "type": "attachmentMultiple"
-        },
-        "tag": {
-            "options": [
-                "blue",
-                "yellow",
-                "green",
-                "red"
-            ],
-            "optionColors": {
-                "blue": "0000FF",
-                "yellow": "FFFF00",
-                "green": "008000",
-                "red": "FF0000"
-            }
         },
         "productStatus": {
             "options": [
@@ -51,45 +27,6 @@
             "audited": true,
             "isSorted": false
         },
-        "deliveryStatus": {
-            "type": "enum",
-            "fontSize": 1,
-            "options": [
-                "Standard",
-                "External Storehouse",
-                "If out of Stock, offline",
-                "If out of Stock, not orderable"
-            ],
-            "optionsDeDe": [
-                "Standard",
-                "External Storehouse",
-                "If out of Stock, offline",
-                "If out of Stock, not orderable"
-            ],
-            "optionsEnUs": [
-                "Standard",
-                "External Storehouse",
-                "If out of Stock, offline",
-                "If out of Stock, not orderable"
-            ],
-            "isMultilang": true
-        },
-        "stock": {
-            "type": "int"
-        },
-        "scopeLastUpdate": {
-            "type": "datetime",
-            "readOnly": true
-        },
-        "priceSupplier": {
-            "type": "link"
-        },
-        "productModel": {
-            "type": "varchar"
-        },
-        "productParent": {
-            "readOnly": true
-        },
         "price": {
             "audited": true
         },
@@ -97,127 +34,11 @@
             "readOnly": true,
             "audited": true
         },
-        "shortInfo": {
-            "type": "wysiwyg",
-            "displayedHeight": 400,
-            "showMoreDisabled": false,
-            "isMultilang": true
-        },
-        "shortDescription": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "isMultilang": true
-        },
-        "description": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "readOnly": true,
-            "isMultilang": true
-        },
-        "detailDescription": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "readOnly": true,
-            "isMultilang": true
-        },
-        "shortDescriptionManual": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "isMultilang": true
-        },
-        "shortDescriptionAddonManual": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "isMultilang": true
-        },
-        "middleDescriptionManual": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "isMultilang": true
-        },
-        "descriptionManual": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "isMultilang": true
-        },
-        "detailDescriptionManual": {
-            "type": "wysiwyg",
-            "rows": 30,
-            "lengthOfCut": 400,
-            "isMultilang": true
-        },
         "brand": {
             "required": true
         },
-        "baseName": {
-            "type": "varchar",
-            "isMultilang": true
-        },
-        "productBagetId": {
-            "type": "varchar",
-            "required": false,
-            "trim": true,
-            "audited": false,
-            "readOnly": false,
-            "isMultilang": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "weight": {
-            "notNull": false,
-            "type": "float",
-            "default": 0,
-            "required": false,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
-        },
         "productFamily": {
             "layoutFiltersDisabled": true
-        },
-        "itemLength": {
-            "type": "int",
-            "required": false,
-            "disableFormatting": false,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "itemWidth": {
-            "type": "int",
-            "required": false,
-            "disableFormatting": false,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "itemHeight": {
-            "type": "int",
-            "required": false,
-            "disableFormatting": false,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "itemWeight": {
-            "type": "int",
-            "required": false,
-            "disableFormatting": false,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
         },
         "ksBadgetss": {
             "type": "linkMultiple",
@@ -237,9 +58,6 @@
             ],
             "default": "STORABLE",
             "isSorted": false
-        },
-        "productConfiguration": {
-            "type": "link"
         }
     },
     "links": {
@@ -250,24 +68,12 @@
             "layoutRelationshipsDisabled": true,
             "relationName": "attachments"
         },
-        "priceSupplier": {
-            "type": "belongsTo",
-            "foreign": "products",
-            "entity": "PriceSupplier"
-        },
         "ksBadgetss": {
             "type": "hasMany",
             "relationName": "productKsBadgets",
             "foreign": "products",
             "entity": "KsBadgets",
             "audited": false
-        },
-        "productConfiguration": {
-            "type": "belongsTo",
-            "foreign": "products",
-            "entity": "productConfiguration",
-            "audited": false,
-            "isCustom": true
         }
     },
     "indexes": {

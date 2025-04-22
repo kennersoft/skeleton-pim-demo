@@ -9,36 +9,23 @@
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "value"
-                }
-            ],
-            [
-                false,
-                {
-                    "name": "nameDeDe"
-                }
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
                 }
             ]
         ],
         "style": "default",
         "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
     }
 ]

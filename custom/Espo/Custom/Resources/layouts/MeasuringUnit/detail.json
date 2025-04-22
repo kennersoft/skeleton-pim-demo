@@ -8,53 +8,10 @@
                 {
                     "name": "unit"
                 }
-            ],
-            [
-                {
-                    "name": "unitDeDe"
-                },
-                {
-                    "name": "nameDeDe"
-                }
-            ],
-            [
-                false,
-                false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
-            ],
-            [
-                {
-                    "name": "unitFrFr"
-                },
-                {
-                    "name": "unitEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "unitItIt"
-                },
-                {
-                    "name": "unitEnGb"
-                }
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Overview",
+        "multilangTabsActive": true
     }
 ]

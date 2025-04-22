@@ -10,29 +10,19 @@
                 {
                     "name": "isActive"
                 }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
             ]
         ]
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
     }
 ]

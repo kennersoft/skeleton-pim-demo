@@ -4,24 +4,9 @@
     },
     "fields": {
         "distScopeTypes": "DistScopeTypes",
-        "multipleInConfigurator": "Multiple in PcConfigurator",
-        "defaultProductsInConfiguration": "Default Products In Pc Configuration",
-        "enableInListingAndSearch": "Hide in Listings and search",
-        "area": "Application"
+        "enableInListingAndSearch": "Hide in Listings and search"
     },
     "links": {
         "distScopeTypes": "DistScopeTypes"
-    },
-    "options": {
-        "area": {
-            "Desktop": "Desktop",
-            "Mini_PC": "Mini_PC",
-            "Gaming": "Gaming",
-            "Notebook": "Notebook",
-            "Brix_Nuc": "Brix_Nuc",
-            "Laptop_B": "Laptop_B",
-            "Motorbike": "Motorbike",
-            "Lever": "Lever"
-        }
     }
 }

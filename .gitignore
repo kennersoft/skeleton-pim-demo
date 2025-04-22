@@ -11,3 +11,5 @@ data/dam/private/
 data/dam/thumbs/
 
 /vendor/
+
+/docker

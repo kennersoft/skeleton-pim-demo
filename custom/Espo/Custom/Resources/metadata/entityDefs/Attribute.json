@@ -6,69 +6,6 @@
             "readOnly": false,
             "tooltip": false
         },
-        "symbol_group_id": {
-            "type": "varchar",
-            "required": false,
-            "trim": true,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "listSymbolFillspace": {
-            "type": "varchar",
-            "required": false,
-            "trim": true,
-            "audited": false,
-            "readOnly": false,
-            "isMultilang": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "fillSpace": {
-            "type": "varchar",
-            "required": false,
-            "trim": true,
-            "audited": false,
-            "readOnly": false,
-            "isMultilang": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "sort": {
-            "type": "int",
-            "required": false,
-            "disableFormatting": false,
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "inProductBagets": {
-            "notNull": true,
-            "type": "bool",
-            "default": false,
-            "audited": false,
-            "readOnly": false,
-            "isMultilang": false,
-            "tooltip": false,
-            "isCustom": true
-        },
-        "selectSymbolType": {
-            "type": "enum",
-            "options": [
-                "multiselect_show",
-                "singleselect_filter"
-            ],
-            "optionColors": {
-                "multiselect_show": "333333",
-                "singleselect_filter": "333333"
-            },
-            "audited": false,
-            "readOnly": false,
-            "isMultilang": false,
-            "tooltip": false
-        },
         "typeValue": {
             "storeArrayValues": true,
             "options": false

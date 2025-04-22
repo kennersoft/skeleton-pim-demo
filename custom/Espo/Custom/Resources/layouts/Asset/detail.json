@@ -11,9 +11,6 @@
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "nameOfFile"
                 }
             ],
@@ -38,32 +35,22 @@
                 {
                     "name": "isActive"
                 }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
             ]
         ],
         "style": "default",
         "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
     },
     {
         "rows": [

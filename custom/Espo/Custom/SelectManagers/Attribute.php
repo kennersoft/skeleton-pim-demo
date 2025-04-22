@@ -20,19 +20,4 @@ class Attribute extends PimAttribute
             ];
         }
     }
-
-    /**
-     * @param array $result
-     */
-    protected function boolFilterLinkedWithIcecatFeature(array &$result)
-    {
-        // prepare data
-        $icecatFeatureId = (array)$this->getSelectCondition('linkedWithIcecatFeature');
-
-        if (isset($icecatFeatureId)) {
-            $result['whereClause'][] = [
-                'icecatFeatureId' => $icecatFeatureId
-            ];
-        }
-    }
 }

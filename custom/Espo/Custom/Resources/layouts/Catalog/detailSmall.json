@@ -3,74 +3,42 @@
         "rows": [
             [
                 {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
                     "name": "isActive"
                 },
                 false
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "code"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                false,
-                false
-            ],
-            [
-                {
-                    "name": "description",
-                    "fullWidth": true
-                }
-            ],
-            [
-                {
-                    "name": "descriptionDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionFrFr"
-                },
-                {
-                    "name": "descriptionEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionItIt"
-                },
-                {
-                    "name": "descriptionEnGb"
                 }
             ]
         ],
         "style": "default",
         "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

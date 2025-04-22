@@ -4,14 +4,23 @@
             [
                 {
                     "name": "name"
-                },
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
                 {
                     "name": "code"
                 }
             ],
             [
                 {
-                    "name": "unit"
+                    "name": "type"
                 },
                 {
                     "name": "typeValue"
@@ -21,42 +30,11 @@
                 {
                     "name": "attributeGroup"
                 },
-                {
-                    "name": "icecatFeature"
-                }
-            ],
-            [
-                {
-                    "name": "productFamily"
-                },
-                {
-                    "name": "requiredInProductFamily"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
                 false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Overview",
+        "multilangTabsActive": false
     }
 ]

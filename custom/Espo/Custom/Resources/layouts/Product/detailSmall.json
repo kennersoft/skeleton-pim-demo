@@ -3,18 +3,21 @@
     "rows": [
       [
         {
-          "name": "type"
+          "name": "isActive"
         },
         {
-          "name": "productFamily"
+          "name": "type"
         }
       ],
       [
         {
-          "name": "productType"
+          "name": "sku"
         },
         {
-          "name": "pcConfigState"
+          "name": "ean"
+        },
+        {
+          "name": "mpn"
         }
       ],
       [
@@ -22,75 +25,54 @@
           "name": "catalog"
         },
         {
-          "name": "sku"
-        }
-      ],
-      [
-        {
-          "name": "pccarea"
-        },
-        {
           "name": "brand"
+        },
+        {
+          "name": "productFamily"
         }
       ],
       [
         {
-          "name": "name"
-        },
-        false
-      ],
-      [
-        {
-          "name": "baseName"
-        },
-        false
-      ],
-      [
-        {
-          "name": "nameDeDe"
-        },
-        false
-      ],
-      [
-        {
-          "name": "baseNameDeDe"
-        },
-        false
-      ],
-      [
-        {
-          "name": "nameFrFr"
-        },
-        {
-          "name": "nameEsEs"
-        }
-      ],
-      [
-        {
-          "name": "baseNameFrFr"
-        },
-        {
-          "name": "baseNameEsEs"
-        }
-      ],
-      [
-        {
-          "name": "nameItIt"
-        },
-        {
-          "name": "nameEnGb"
-        }
-      ],
-      [
-        {
-          "name": "baseNameItIt"
-        },
-        {
-          "name": "baseNameEnGb"
+          "name": "productStatus"
         }
       ]
     ],
     "style": "default",
-    "label": ""
+    "label": "Overview"
+  },
+  {
+    "rows": [
+      [
+        {
+          "name": "name"
+        }
+      ],
+      [
+        {
+          "name": "longDescription"
+        }
+      ]
+    ],
+    "style": "default",
+    "label": "Names",
+    "multilangTabsActive": true
+  },
+  {
+    "rows": [
+      [
+        {
+          "name": "price"
+        }
+      ],
+      [
+        {
+          "name": "finalPrice"
+        }
+      ]
+    ],
+    "style": "default",
+    "dynamicLogicVisible": null,
+    "multilangTabsActive": false,
+    "customLabel": "Prices"
   }
 ]

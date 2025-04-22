@@ -4,75 +4,41 @@
             [
                 {
                     "name": "name"
-                },
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
                 {
                     "name": "code"
                 }
             ],
             [
                 {
-                    "name": "nameDeDe"
-                },
-                {
-                    "name": "addBagetsToProductInPopup"
-                }
-            ],
-            [
-                false,
-                false
-            ],
-            [
-                {
                     "name": "sortOrder"
                 },
                 false
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
                     "fullWidth": true
                 }
-            ],
-            [
-                {
-                    "name": "descriptionDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionFrFr"
-                },
-                {
-                    "name": "descriptionEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionItIt"
-                },
-                {
-                    "name": "descriptionEnGb"
-                }
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

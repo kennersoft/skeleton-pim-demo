@@ -6,7 +6,5 @@
     "currencies",
     "locales",
     "modifiedAt",
-    "modifiedBy",
-    "orders",
-    "pricings"
+    "modifiedBy"
 ]

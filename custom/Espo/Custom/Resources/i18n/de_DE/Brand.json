@@ -6,19 +6,12 @@
     "fields": {
         "createdAt": "erstellt am",
         "createdBy": "erstellt von",
-        "descriptionDeDe": "Beschreibung DeDe",
-        "descriptionEnUs": "Beschreibung EnUs",
-        "descriptionEsEs": "Beschreibung EsEs",
-        "descriptionFrFr": "Beschreibung FrFr",
+        "description": "Beschreibung",
         "isActive": "Aktiv",
         "modifiedAt": "geändert am",
         "modifiedBy": "geändert von",
-        "nameDeDe": "Name DeDe",
-        "nameEnUs": "Name EnUs",
-        "nameEsEs": "Name EsEs",
-        "nameFrFr": "Name FrFr",
-        "products": "Produkte",
-        "textTest": "Text Test"
+        "name": "Name",
+        "products": "Produkte"
     },
     "labels": {
         "Create Brand": "Marke erstellen"

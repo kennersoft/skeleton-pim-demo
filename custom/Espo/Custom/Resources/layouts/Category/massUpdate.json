@@ -2,7 +2,5 @@
     "isActive",
     "description",
     "name",
-    "categoryParent",
-    "markupType",
-    "markupValue"
+    "categoryParent"
 ]

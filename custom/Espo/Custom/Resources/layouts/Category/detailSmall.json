@@ -5,29 +5,13 @@
                 {
                     "name": "isActive"
                 },
-                false
-            ],
-            [
-                {
-                    "name": "name"
-                },
-                {
-                    "name": "categoryParent"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
+                false,
                 false,
                 false
             ],
             [
                 {
-                    "name": "description"
+                    "name": "categoryParent"
                 },
                 {
                     "name": "code"
@@ -35,44 +19,32 @@
             ],
             [
                 {
-                    "name": "descriptionDeDe"
+                    "name": "dynamicProductGroup"
                 },
+                false,
+                false,
                 false
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
+                    "name": "name"
                 }
             ],
             [
                 {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionFrFr"
-                },
-                {
-                    "name": "descriptionEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionItIt"
-                },
-                {
-                    "name": "descriptionEnGb"
+                    "name": "description"
                 }
             ]
         ],
         "style": "default",
-        "label": ""
+        "dynamicLogicVisible": null,
+        "multilangTabsActive": true,
+        "customLabel": "Name"
     }
 ]

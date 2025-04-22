@@ -4,21 +4,8 @@
         "width": 9
     },
     {
-        "name": "flagsCategories",
-        "width": 10,
-        "notSortable": true
-    },
-    {
-        "name": "pcConfigState",
-        "width": 5
-    },
-    {
-        "name": "deliveryTime",
-        "width": 5
-    },
-    {
         "name": "name",
-        "width": 22,
+        "width": 25,
         "link": true
     },
     {
@@ -40,32 +27,8 @@
         "width": 7
     },
     {
-        "name": "scopeprice",
-        "width": 7
-    },
-    {
-        "name": "usedPrice",
-        "width": 8
-    },
-    {
-        "name": "isInPcConfigurationDisable",
-        "align": "center",
-        "widthPx": 40,
-        "noLabel": true
-    },
-    {
         "name": "isActive",
         "align": "center",
-        "widthPx": 40,
-        "noLabel": true
-    },
-    {
-        "name": "pccarea",
-        "width": 10,
-        "notSortable": true
-    },
-    {
-        "name": "calculatorData",
         "widthPx": 40,
         "noLabel": true
     }

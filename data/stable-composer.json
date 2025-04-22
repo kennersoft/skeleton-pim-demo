@@ -5,13 +5,9 @@
     "license": "GPL-3.0-only",
     "minimum-stability": "rc",
     "require": {
-        "kennersoft/kennercore": "^3.25.76",
+        "kennersoft/kennercore": "^3.25.81",
         "kennersoft/multi-languages": "*",
         "kennersoft/pim": "^3.13.0",
-        "wizaplace/php-etl": "^1.3",
-        "kennersoft/neo4j-pump": "^1.0",
-        "kennersoft/sw6-pump": "^1.0",
-        "kennersoft/ks-ankermann": "*",
         "kennersoft/advanced-navigation": "*",
         "kennersoft/data-quality": "^1.0"
     },

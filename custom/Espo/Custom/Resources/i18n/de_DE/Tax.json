@@ -5,10 +5,7 @@
         "isActive": "Aktiv",
         "modifiedAt": "geändert am",
         "modifiedBy": "geändert von",
-        "nameDeDe": "Name DeDe",
-        "nameEnUs": "Name EnUs",
-        "nameEsEs": "Name EsEs",
-        "nameFrFr": "Name FrFr",
+        "name": "Name",
         "products": "Produkte",
         "teams": "Teams"
     },

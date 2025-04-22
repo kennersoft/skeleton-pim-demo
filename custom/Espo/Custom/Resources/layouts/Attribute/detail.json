@@ -4,14 +4,23 @@
       [
         {
           "name": "name"
-        },
+        }
+      ]
+    ],
+    "style": "default",
+    "label": "Names",
+    "multilangTabsActive": true
+  },
+  {
+    "rows": [
+      [
         {
           "name": "code"
         }
       ],
       [
         {
-          "name": "unit"
+          "name": "type"
         },
         {
           "name": "typeValue"
@@ -21,98 +30,11 @@
         {
           "name": "attributeGroup"
         },
-        {
-          "name": "icecatFeature"
-        }
-      ],
-      [
-        {
-          "name": "productFamily"
-        },
-        {
-          "name": "requiredInProductFamily"
-        }
-      ],
-      [
-        {
-          "name": "tooltipText"
-        },
         false
       ]
     ],
     "style": "default",
     "label": "Overview",
-    "multilangTabsActive": true
-  },
-  {
-    "rows": [
-      [
-        {
-          "name": "symbolImage"
-        },
-        {
-          "name": "sort"
-        },
-        {
-          "name": "symbolTextColor"
-        },
-        {
-          "name": "symbolBackgroundColor"
-        }
-      ],
-      [
-        {
-          "name": "symbolName"
-        },
-        {
-          "name": "selectSymbolType"
-        },
-        {
-          "name": "listSymbolText"
-        },
-        false
-      ],
-      [
-        {
-          "name": "quickSymbolText"
-        },
-        {
-          "name": "quickSymbolImage"
-        },
-        false,
-        false
-      ]
-    ],
-    "style": "info",
-    "dynamicLogicVisible": null,
-    "customLabel": "Symbol design",
-    "multilangTabsActive": true
-  },
-  {
-    "rows": [
-      [
-        {
-          "name": "quickSymbolMode"
-        },
-        {
-          "name": "symbol_group_id"
-        }
-      ],
-      [
-        {
-          "name": "listSymbolMode"
-        },
-        false
-      ],
-      [
-        {
-          "name": "inProductBagets"
-        },
-        false
-      ]
-    ],
-    "style": "success",
-    "dynamicLogicVisible": null,
-    "customLabel": "Symbol config"
+    "multilangTabsActive": false
   }
 ]

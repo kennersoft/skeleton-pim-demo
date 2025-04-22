@@ -3,6 +3,18 @@
         "rows": [
             [
                 {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
                     "name": "isActive"
                 },
                 {
@@ -11,68 +23,27 @@
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "currencies"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
                 },
-                false
-            ],
-            [
-                false,
-                false
-            ],
+                {
+                    "name": "locales"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
                     "fullWidth": true
                 }
-            ],
-            [
-                {
-                    "name": "descriptionDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameFrFr"
-                },
-                {
-                    "name": "nameEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "nameItIt"
-                },
-                {
-                    "name": "nameEnGb"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionFrFr"
-                },
-                {
-                    "name": "descriptionEsEs"
-                }
-            ],
-            [
-                {
-                    "name": "descriptionItIt"
-                },
-                {
-                    "name": "descriptionEnGb"
-                }
             ]
         ],
         "style": "default",
-        "label": ""
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]
