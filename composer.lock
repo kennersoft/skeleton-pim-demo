@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2679d66aa881c3fb379295372ccb8d54",
+    "content-hash": "a74206f07767fa0a8b94a681a997d769",
     "packages": [
         {
             "name": "composer/semver",
@@ -1237,16 +1237,16 @@
         },
         {
             "name": "kennersoft/kennercore",
-            "version": "3.25.81",
+            "version": "3.25.82",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kennersoft/kennercore.git",
-                "reference": "0278b7f7abbe3023579931ba20b1cf37f30639ff"
+                "reference": "e95b8fa61f0a0e18a6d348764f2c075088b453fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kennersoft/kennercore/zipball/0278b7f7abbe3023579931ba20b1cf37f30639ff",
-                "reference": "0278b7f7abbe3023579931ba20b1cf37f30639ff",
+                "url": "https://api.github.com/repos/kennersoft/kennercore/zipball/e95b8fa61f0a0e18a6d348764f2c075088b453fe",
+                "reference": "e95b8fa61f0a0e18a6d348764f2c075088b453fe",
                 "shasum": ""
             },
             "require": {
@@ -1302,9 +1302,9 @@
             "description": "KennerCORE. Open source application.",
             "homepage": "https://kennersoft.de",
             "support": {
-                "source": "https://github.com/kennersoft/kennercore/tree/3.25.81"
+                "source": "https://github.com/kennersoft/kennercore/tree/3.25.82"
             },
-            "time": "2025-04-15T13:09:52+00:00"
+            "time": "2025-04-29T08:00:36+00:00"
         },
         {
             "name": "kennersoft/kennerdam-common",

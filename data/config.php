@@ -10,6 +10,9 @@ return [
         'user' => 'db',
         'password' => 'db'
     ],
+    'demoMode' => false,
+    'demoLogin' => 'user',
+    'demoPassword' => 'user',
     'recordsPerPage' => 50,
     'recordsPerPageSmall' => 20,
     'lastViewedCount' => 20,
@@ -200,7 +203,7 @@ return [
             ]
         ]
     ],
-    'cacheTimestamp' => 1744989637,
+    'cacheTimestamp' => 1745907967,
     'twoLevelTabList' => [
         0 => 'Association',
         1 => 'Attribute',

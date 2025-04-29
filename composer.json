@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "minimum-stability": "rc",
     "require": {
-        "kennersoft/kennercore": "^3.25.81",
+        "kennersoft/kennercore": "^3.25.82",
         "kennersoft/multi-languages": "*",
         "kennersoft/pim": "^3.13.0",
         "kennersoft/advanced-navigation": "*",
