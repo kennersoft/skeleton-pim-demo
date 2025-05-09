@@ -1,20 +1,14 @@
 [
+    "name",
+    "ean",
+    "sku",
     "isActive",
-    "amount",
+    "productFamily",
     "type",
     "catalog",
-    "channels",
     "brand",
-    "ean",
-    "mpn",
-    "packaging",
-    "finalPrice",
-    "productSerie",
     "productStatus",
-    "productFamily",
+    "categories",
     "price",
-    "sku",
-    "tag",
-    "tax",
-    "uvp"
+    "createdAt"
 ]

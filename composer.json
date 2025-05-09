@@ -3,11 +3,13 @@
     "description": "Skeleton for KennerPIM with demo data",
     "homepage": "https://kennerpim.de",
     "license": "GPL-3.0-only",
-    "minimum-stability": "stable",
+    "minimum-stability": "rc",
     "require": {
-        "kennersoft/kennercore": "^3.25.6",
+        "kennersoft/kennercore": "^3.25.82",
         "kennersoft/multi-languages": "*",
-        "kennersoft/pim": "~3.11.30"
+        "kennersoft/pim": "^3.13.0",
+        "kennersoft/advanced-navigation": "*",
+        "kennersoft/data-quality": "^1.0"
     },
     "scripts": {
         "pre-update-cmd": "ComposerCmd::preUpdate",
@@ -25,6 +27,10 @@
         {
             "type": "composer",
             "url": "https://packagist.kennersoft.de/packages.json?id=public"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.kennersoft.de/packages.json?id=cc64ea64af05212eb6a17"
         }
     ]
 }

@@ -5,38 +5,46 @@
                 {
                     "name": "isActive"
                 },
+                false,
+                false,
                 false
             ],
             [
-                {
-                    "name": "name"
-                },
                 {
                     "name": "categoryParent"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "description"
                 },
                 {
                     "name": "code"
                 }
+            ],
+            [
+                {
+                    "name": "dynamicProductGroup"
+                },
+                false,
+                false,
+                false
             ]
         ],
         "style": "default",
-        "label": ""
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "multilangTabsActive": true,
+        "customLabel": "Name"
     }
 ]

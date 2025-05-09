@@ -1,10 +1,17 @@
 {
-    "collection": {
-        "sortBy": "createdAt",
-        "asc": false,
-        "textFilterFields": [
-            "name"
-        ],
-        "fullTextSearch": false
+  "collection": {
+    "sortBy": "createdAt",
+    "asc": false,
+    "textFilterFields": [
+      "name"
+    ],
+    "fullTextSearch": false
+  },
+  "fields": {
+    "description": {
+      "type": "wysiwyg",
+      "displayedHeight": 400,
+      "isMultilang": true
     }
+  }
 }

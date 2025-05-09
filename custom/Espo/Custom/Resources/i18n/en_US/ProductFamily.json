@@ -1,5 +1,12 @@
 {
     "labels": {
         "Create ProductFamily": "Create Product Family"
+    },
+    "fields": {
+        "distScopeTypes": "DistScopeTypes",
+        "enableInListingAndSearch": "Hide in Listings and search"
+    },
+    "links": {
+        "distScopeTypes": "DistScopeTypes"
     }
 }

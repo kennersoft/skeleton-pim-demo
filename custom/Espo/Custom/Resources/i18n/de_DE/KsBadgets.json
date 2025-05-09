@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "shortText": "Short text",
+    "image": "Bild",
+    "info": "Info"
+  },
+  "links": {
+    "products": "Produkte"
+  },
+  "labels": {
+    "Create KsBadgets": "Badgets erstellen"
+  }
+}

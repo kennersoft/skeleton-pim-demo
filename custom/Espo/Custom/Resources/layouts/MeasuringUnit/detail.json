@@ -8,25 +8,10 @@
                 {
                     "name": "unit"
                 }
-            ],
-            [
-                {
-                    "name": "unitDeDe"
-                },
-                {
-                    "name": "nameDeDe"
-                }
-            ],
-            [
-                {
-                    "name": "unitEnUs"
-                },
-                {
-                    "name": "nameEnUs"
-                }
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Overview",
+        "multilangTabsActive": true
     }
 ]

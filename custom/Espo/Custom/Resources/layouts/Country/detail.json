@@ -1,0 +1,28 @@
+[
+    {
+        "label": "Overview",
+        "style": "default",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "isActive"
+                }
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    }
+]

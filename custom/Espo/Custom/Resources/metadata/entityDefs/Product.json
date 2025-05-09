@@ -3,43 +3,11 @@
         "name": {
             "type": "varchar",
             "audited": true,
-            "readOnly": false,
-            "tooltip": false
+            "tooltip": true,
+            "maxLength": 300
         },
         "sku": {
-            "audited": true,
-            "readOnly": false,
-            "tooltip": false
-        },
-        "attachments": {
-            "layoutListDisabled": true,
-            "type": "attachmentMultiple",
-            "required": false,
-            "sourceList": [],
-            "tooltip": false,
-            "isCustom": true
-        },
-        "tag": {
-            "options": [
-                "blue",
-                "yellow",
-                "green",
-                "red",
-                "your_tag1",
-                "your_tag2"
-            ],
-            "optionColors": {
-                "blue": "0000FF",
-                "yellow": "FFFF00",
-                "green": "008000",
-                "red": "FF0000",
-                "your_tag1": "800000",
-                "your_tag2": "000080"
-            },
-            "storeArrayValues": true,
-            "required": false,
-            "readOnly": false,
-            "tooltip": false
+            "audited": true
         },
         "productStatus": {
             "options": [
@@ -57,75 +25,39 @@
                 "ready": "00FF00"
             },
             "audited": true,
-            "isSorted": false,
-            "readOnly": false,
-            "tooltip": false
+            "isSorted": false
         },
-        "deliveryStatus": {
+        "price": {
+            "audited": true
+        },
+        "finalPrice": {
+            "readOnly": true,
+            "audited": true
+        },
+        "brand": {
+            "required": true
+        },
+        "productFamily": {
+            "layoutFiltersDisabled": true
+        },
+        "ksBadgetss": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true
+        },
+        "productType": {
             "type": "enum",
             "required": false,
             "fontSize": 1,
+            "prohibitedEmptyValue": true,
             "options": [
-                "Standard",
-                "External Storehouse",
-                "If out of Stock, offline",
-                "If out of Stock, not orderable"
+                "STORABLE",
+                "BASIC"
             ],
-            "optionsDeDe": [
-                "Standard",
-                "External Storehouse",
-                "If out of Stock, offline",
-                "If out of Stock, not orderable"
-            ],
-            "optionsEnUs": [
-                "Standard",
-                "External Storehouse",
-                "If out of Stock, offline",
-                "If out of Stock, not orderable"
-            ],
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true,
-            "isMultilang": true
-        },
-        "supplied": {
-            "type": "multiEnum",
-            "storeArrayValues": true,
-            "required": false,
-            "fontSize": 1,
-            "options": [
-                "Remote Control (with batteries)",
-                "Documentation",
-                "Headset",
-                "Charger",
-                "Battery",
-                "Lens",
-                "Power cord"
-            ],
-            "optionsDeDe": [
-                "Remote Control (with batteries)",
-                "Documentation",
-                "Headset",
-                "Charger",
-                "Battery",
-                "Lens",
-                "Power cord"
-            ],
-            "optionsEnUs": [
-                "Remote Control (with batteries)",
-                "Documentation",
-                "Headset",
-                "Charger",
-                "Battery",
-                "Lens",
-                "Power cord"
-            ],
-            "audited": false,
-            "readOnly": false,
-            "tooltip": false,
-            "isCustom": true,
-            "isMultilang": true
+            "default": "STORABLE",
+            "isSorted": false
         }
     },
     "links": {
@@ -135,6 +67,20 @@
             "foreign": "parent",
             "layoutRelationshipsDisabled": true,
             "relationName": "attachments"
+        },
+        "ksBadgetss": {
+            "type": "hasMany",
+            "relationName": "productKsBadgets",
+            "foreign": "products",
+            "entity": "KsBadgets",
+            "audited": false
+        }
+    },
+    "indexes": {
+        "sku": {
+            "columns": [
+                "sku"
+            ]
         }
     },
     "collection": {
@@ -145,6 +91,6 @@
             "sku",
             "ean"
         ],
-        "fullTextSearch": false
+        "fullTextSearch": true
     }
 }

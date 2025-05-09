@@ -1,101 +1,175 @@
 {
-    "fields": {
-        "name": "Name",
-        "assignedUser": "zugewiesener Benutzer",
-        "associatedMainProducts": "zugehörige Produkte",
-        "associatedRelatedProduct": "Verknüpfung von ähnlichen Produkten",
-        "attachments": "Zubehör",
-        "channelProductAttributeValues": "Attributwerte vom Kanalprodukt",
-        "channelProducts": "Kanalprodukt",
-        "complete": "fertig",
-        "completeDeDe": "fertig(DeDe)",
-        "completeEnUs": "fertig  (EnUs)",
-        "completeEsEs": "fertig (EsEs)",
-        "completeFrFr": "fertig (FrFr)",
-        "createdAt": "erstellt am",
-        "createdBy": "erstellt von",
-        "finalPrice": "Endpreis",
-        "finalPriceConverted": "konvertierter Endpreis",
-        "finalPriceCurrency": "Währung der Endpreis",
-        "isActive": "Aktiv",
-        "modifiedAt": "geändert am",
-        "modifiedBy": "geändert von",
-        "nameDeDe": "NameDeDe",
-        "nameEnUs": "NameEnUs",
-        "nameEsEs": "NameEsEs",
-        "nameFrFr": "NameFrFr",
-        "priceConverted": "konvertierter Preis",
-        "priceCurrency": "Währung der Preis",
-        "productAttributes": "Produkteattribute",
-        "productAttributeValues": "Werte des Produkteattributs",
-        "productBundles": "Produktbündel",
-        "productFamily": "Produktfamilie",
-        "productPackages": "Verpackungsdetails",
-        "products": "Produkte",
-        "productStatus": "Produktstatus",
-        "productTypeBundles": "Produkttyp Bündel",
-        "productTypeConfigurables": "konfigurierbarer Produkttyp",
-        "productTypePackages": "Produkttyp  Pakete",
-        "scope": "Umfang"
+  "fields": {
+    "name": "Name",
+    "assignedUser": "zugewiesener Benutzer",
+    "associatedMainProducts": "zugehörige Produkte",
+    "associatedRelatedProduct": "Verknüpfung von ähnlichen Produkten",
+    "attachments": "Zubehör",
+    "channelProductAttributeValues": "Attributwerte vom Kanalprodukt",
+    "channelProducts": "Kanalprodukt",
+    "complete": "fertig",
+    "completeDeDe": "fertig(DeDe)",
+    "completeEnUs": "fertig  (EnUs)",
+    "completeEsEs": "fertig (EsEs)",
+    "completeFrFr": "fertig (FrFr)",
+    "createdAt": "erstellt am",
+    "createdBy": "erstellt von",
+    "finalPrice": "Endpreis",
+    "finalPriceConverted": "konvertierter Endpreis",
+    "finalPriceCurrency": "Währung der Endpreis",
+    "isActive": "Aktiv",
+    "modifiedAt": "geändert am",
+    "modifiedBy": "geändert von",
+    "priceConverted": "konvertierter Preis",
+    "productAttributes": "Produkteattribute",
+    "productAttributeValues": "Werte des Produkteattributs",
+    "productBundles": "Produktbündel",
+    "productFamily": "Produktfamilie",
+    "productPackages": "Verpackungsdetails",
+    "products": "Produkte",
+    "productStatus": "Produktstatus",
+    "productTypeBundles": "Produkttyp Bündel",
+    "productTypeConfigurables": "konfigurierbarer Produkttyp",
+    "productTypePackages": "Produkttyp  Pakete",
+    "scope": "Umfang",
+    "shortInfo": "Short info",
+    "manuallyConfigureFields": "Manuell geänderte Felder",
+    "deliveryTime": "Lieferzeit",
+    "toCartButtonIsShow": "Warenkorb-Schaltfläche anzeigen",
+    "baseName": "Basis name",
+    "longDescription": "Manual",
+    "price": "Manueller Preis",
+    "priceCurrency": "Manueller Preis Währung",
+    "usedPrice": "Gebrauchtpreis",
+    "usedPriceCurrency": "Gebrauchtpreis Währung",
+    "ksBadgetss": "Badgets",
+    "flagsCategories": "Produkt Typ",
+    "catalogId": "Katalog",
+    "brandId": "Marke",
+    "productFamilyId": "Produktfamilie"
+  },
+  "boolFilters": {
+    "withoutAnyCategory": "ohne Kategorie",
+    "withoutAssociatedProducts": "ohne zugehörige Produkte",
+    "withoutImageAssets": "ohne Bildassets",
+    "withoutProductAttributes": "ohne Produktattribute",
+    "DataQualityImageCount": "Nicht genug Bilder",
+    "requiredAttributesNotFilled": "Erforderliche Attribute nicht ausgefüllt",
+    "duplicateMpn" : "Mpn-Duplikate",
+    "duplicateTitle": "Titelduplikate",
+    "duplicateSku" : "Sku-Duplikate",
+    "duplicateEan" : "Ean-Duplikate",
+    "DataQualitySpell": "Rechtschreibfehler bei der Übersetzung",
+    "DataQualityReqSku": "Sku nicht gefüllt",
+    "DataQualityReqEan": "Ean nicht gefüllt",
+    "DataQualityReqMpn": "Mpn nicht gefüllt",
+    "DataQualityImageLow": "Niedrige Bildauflösung",
+    "DataQualityImageHigh": "Hohe Bildauflösung",
+    "DataQualityImageRatio": "Ungültiges Bildseitenverhältnis",
+    "DataQualityImageType": "Ungültiger Bilddateityp",
+    "DataQualityImageBig": "Große Dateigröße des Bildes",
+    "DataQualityImageSmall": "Kleine Dateigröße des Bildes",
+    "DataQualityChannel": "Kanal nicht gefüllt"
+  },
+  "exceptions": {
+    "Product with such SKU already exist": "Produkt mit einer solchen Artikelnummer existiert bereits"
+  },
+  "labels": {
+    "Add Attribute Filter": "Attributfilter hinzufügen",
+    "Add Import Filter": "Importfilter hinzufügen",
+    "Associated Products": "Assoziierte Produkte",
+    "Channels": "Kanale",
+    "Create Product": "Produkt erstellen",
+    "Product Attributes": "Produktattribute",
+    "Product Channel Attributes": "Produktkanalattribute",
+    "shortDescription": "Kurzbeschreibung (Produktseite)",
+    "shortDescriptionAddon": "Kurzbeschreibung (Kategorieseite)",
+    "middleDescription": "Mittlere Beschreibung",
+    "description": "Description",
+    "detailDescription": "Detailbeschreibung",
+    "powerbar": "Powerbar",
+    "longDescription": "Lange Beschreibung",
+    "descriptions": "Beschreibungen",
+    "prices": "Preise",
+    "Stock": "Lagerbestand"
+  },
+  "links": {
+    "assignedUser": "zugewiesener Benutzer",
+    "associatedMainProducts": "zugehörige Produkte",
+    "associatedRelatedProduct": "Verknüpfung von ähnlichen Produkten",
+    "attachments": "Zubehör",
+    "channelProductAttributeValues": "Attributwerte vom Kanalprodukt",
+    "channelProducts": "Kanalprodukte",
+    "createdBy": "erstellt von",
+    "modifiedBy": "geändert von",
+    "product": "Produkt",
+    "productAttributes": "Produktattribute",
+    "productAttributeValues": "Werte der Produktattribute",
+    "productBundles": "Produktbündel",
+    "productFamily": "Produktfamilie",
+    "productPackages": "Produktpakete",
+    "products": "Produkte",
+    "productTypeBundles": "Produkttyp Bündel",
+    "productTypeConfigurables": "konfigurierbarer Produkttyp",
+    "productTypePackages": "Produkttyp  Pakete",
+    "ksBadgetss": "Badgets"
+  },
+  "options": {
+    "productStatus": {
+      "draft": "Entwurf",
+      "prepared": "vorbereitet",
+      "reviewed": "überprüft",
+      "notReady": "nicht bereit",
+      "ready": "bereit"
     },
-    "boolFilters": {
-        "withoutAnyCategory": "ohne Kategorie",
-        "withoutAssociatedProducts": "ohne zugehörige Produkte",
-        "withoutImageAssets": "ohne Bildassets",
-        "withoutProductAttributes": "ohne Produktattribute"
+    "tag": {
+      "blue": "blau",
+      "yellow": "gelb",
+      "green": "grün",
+      "red": "rot"
     },
-    "exceptions": {
-        "Product with such SKU already exist": "Produkt mit einer solchen Artikelnummer existiert bereits"
+    "type": {
+      "simpleProduct": "einfaches Produkt",
+      "bundleProduct": "Bündelprodukt",
+      "packageProduct": "Produktpakett"
     },
-    "labels": {
-        "Add Attribute Filter": "Attributfilter hinzufügen",
-        "Add Import Filter": "Importfilter hinzufügen",
-        "Associated Products": "Assoziierte Produkte",
-        "Channels": "Kanale",
-        "Create Product": "Produkt erstellen",
-        "Product Attributes": "Produktattribute",
-        "Product Channel Attributes": "Produktkanalattribute"
+    "ksconfigurableproduct": {
+      "V": "Produkt kann nur konfiguriert werden",
+      "E": "Produkt kann nur direkt bestellt werden"
     },
-    "links": {
-        "assignedUser": "zugewiesener Benutzer",
-        "associatedMainProducts": "zugehörige Produkte",
-        "associatedRelatedProduct": "Verknüpfung von ähnlichen Produkten",
-        "attachments": "Zubehör",
-        "channelProductAttributeValues": "Attributwerte vom Kanalprodukt",
-        "channelProducts": "Kanalprodukte",
-        "createdBy": "erstellt von",
-        "modifiedBy": "geändert von",
-        "product": "Produkt",
-        "productAttributes": "Produktattribute",
-        "productAttributeValues": "Werte der Produktattribute",
-        "productBundles": "Produktbündel",
-        "productFamily": "Produktfamilie",
-        "productPackages": "Produktpakete",
-        "products": "Produkte",
-        "productTypeBundles": "Produkttyp Bündel",
-        "productTypeConfigurables": "konfigurierbarer Produkttyp",
-        "productTypePackages": "Produkttyp  Pakete"
+    "deliveryTime": {
+      "ac223926d5ba4954b548a93ca0438ee2": "5-8 Werktage",
+      "018bae85b1b5772eb3ff36c2d5a7e73a": "4-5 Werktage",
+      "d235642c3bae4a5387716c4cf4f83a32": "Sofort versandbereit"
     },
-    "options": {
-        "productStatus": {
-            "draft": "Entwurf",
-            "prepared": "vorbereitet",
-            "reviewed": "überprüft",
-            "notReady": "nicht bereit",
-            "ready": "bereit"
-        },
-        "tag": {
-            "blue": "blau",
-            "yellow": "gelb",
-            "green": "grün",
-            "red": "rot",
-            "your tag1": "your tag1",
-            "your tag2": "your tag2"
-        },
-        "type": {
-            "simpleProduct": "einfaches Produkt",
-            "bundleProduct": "Bündelprodukt",
-            "packageProduct": "Produktpakett"
-        }
+    "usedPrice": {
+      "price": "Manueller Preis",
+      "scopeprice": "ITscope Preis",
+      "weclappPrice": "Weclapp Preis"
+    },
+    "productType": {
+      "BASIC": "Basic article",
+      "STORABLE": "Stockable"
+    },
+    "pcConfigState": {
+      "hide": "-",
+      "New": "Neu",
+      "Used": "Gebraucht",
+      "Refurbished": "Refurbished"
+    },
+    "usedStock": {
+      "stockManual": "Manueller Lagerbestand",
+      "weclappStock": "Weclapp Lagerbestand (Abverkauf)",
+      "weclappStockExtended": "Weclapp stock"
+    },
+    "deploymentTime": {
+      "4-5": "4-5 Tage",
+      "5-8": "5-8 Tage"
     }
+  },
+  "tooltips": {
+    "name": "Name wird für die Generierung der Detail Description verwendet",
+    "productsoptionsvaluesnamelong": "Name neutral wird für die Generierung der Middle Description verwendet",
+    "productsoptionsvaluesnameshort": "Name kurz (Kategorieseite) wird für die Generierung der Kurzbeschreibung (Kategorieseite) verwendet"
+  }
 }

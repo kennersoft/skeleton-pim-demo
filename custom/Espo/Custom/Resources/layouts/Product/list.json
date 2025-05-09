@@ -1,25 +1,35 @@
 [
     {
+        "name": "image",
+        "width": 9
+    },
+    {
         "name": "name",
+        "width": 25,
         "link": true
     },
     {
-        "name": "image"
+        "name": "sku",
+        "width": 8
     },
     {
-        "name": "tag",
-        "notSortable": true
+        "name": "ean",
+        "width": 8
     },
     {
-        "name": "catalog"
+        "name": "isQualityErrors",
+        "align": "center",
+        "widthPx": 40,
+        "noLabel": true
     },
     {
-        "name": "sku"
+        "name": "price",
+        "width": 7
     },
     {
-        "name": "type"
-    },
-    {
-        "name": "isActive"
+        "name": "isActive",
+        "align": "center",
+        "widthPx": 40,
+        "noLabel": true
     }
 ]

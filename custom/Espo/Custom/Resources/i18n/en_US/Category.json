@@ -1,5 +1,18 @@
 {
-    "labels": {
-        "Create Category": "Create Category"
+  "labels": {
+    "Create Category": "Create Category"
+  },
+  "fields": {
+    "distScopeTypes": "DistScopeTypes",
+    "description": "Lower description"
+  },
+  "links": {
+    "distScopeTypes": "DistScopeTypes"
+  },
+  "options": {
+    "nameHeaderType": {
+      "H1": "H1",
+      "H2": "H2"
     }
+  }
 }

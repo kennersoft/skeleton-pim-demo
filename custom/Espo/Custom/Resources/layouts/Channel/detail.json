@@ -3,24 +3,22 @@
         "rows": [
             [
                 {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
                     "name": "isActive"
                 },
                 {
                     "name": "code"
-                }
-            ],
-            [
-                {
-                    "name": "name"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                {
-                    "name": "nameDeDe"
                 }
             ],
             [
@@ -30,23 +28,22 @@
                 {
                     "name": "locales"
                 }
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
                     "fullWidth": true
                 }
-            ],
-            [
-                {
-                    "name": "descriptionEnUs"
-                },
-                {
-                    "name": "descriptionDeDe"
-                }
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

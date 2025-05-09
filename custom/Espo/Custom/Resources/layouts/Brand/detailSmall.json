@@ -3,6 +3,18 @@
         "rows": [
             [
                 {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
                     "name": "isActive"
                 },
                 {
@@ -11,21 +23,18 @@
             ],
             [
                 {
-                    "name": "name"
+                    "name": "site"
+                },
+                {
+                    "name": "manufactureLogo"
                 }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
@@ -34,6 +43,7 @@
             ]
         ],
         "style": "default",
-        "label": ""
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

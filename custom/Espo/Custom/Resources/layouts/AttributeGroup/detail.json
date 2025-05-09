@@ -4,29 +4,32 @@
             [
                 {
                     "name": "name"
-                },
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
                 {
                     "name": "code"
                 }
             ],
             [
                 {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
-            [
-                {
                     "name": "sortOrder"
                 },
                 false
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
@@ -35,6 +38,7 @@
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

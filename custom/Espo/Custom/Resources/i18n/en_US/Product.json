@@ -2,82 +2,117 @@
     "fields": {
         "attachments": "Attachments",
         "deliveryStatus": "Delivery Status",
-        "supplied": "Components"
+        "supplied": "Components",
+        "baseName": "Base name",
+        "longDescription": "Manual",
+        "price": "Manual price",
+        "priceCurrency": "Manual price Currency",
+        "ksBadgetss": "Badges",
+        "flagsCategories": "Product Type",
+        "onBoardComponent": "onBoard Component",
+        "productType": "Artikeltyp(Weclapp)",
+        "catalogId": "Catalog",
+        "brandId": "Brand",
+        "productFamilyId": "Product Family",
+        "stockManual": "Manual stock",
+        "usedStock": "Used stock",
+        "lastPriceChange": "Last price change",
+        "lastScopePriceChange": "Last ITScope price import",
+        "deploymentTime": "Increase deployment time",
+        "productConfiguration": "Product Configuration",
+        "mpn": "OEM Part number",
+        "productionStart": "Production Start",
+        "productionEnd": "Production End",
+        "displacement": "Displacement",
+        "aBEEGBENr": "ABE/EG-BE Nr.",
+        "aBS": "ABS"
     },
     "options": {
         "tag": {
             "blue": "blue",
             "yellow": "yellow",
             "green": "green",
-            "red": "red",
-            "your tag1": "your tag1",
-            "your tag2": "your tag2",
-            "your_tag1": "your tag1",
-            "your_tag2": "your tag2"
+            "red": "red"
         },
-        "deliveryStatus": {
-            "optionsEnUs": {
-                "Standard": "Standard",
-                "External Storehouse": "External Storehouse",
-                "If out of Stock, offline": "If out of Stock, offline",
-                "If out of Stock, not orderable": "If out of Stock, not orderable"
-            },
-            "optionsDeDe": {
-                "Standard": "Standard",
-                "External Storehouse": "Fremdlager",
-                "If out of Stock, offline": "Wenn ausverkauft offline",
-                "If out of Stock, not orderable": "Wenn ausverkauft nicht bestellbar"
-            },
-            "options": {
-                "Standard": "Standard",
-                "External Storehouse": "External Storehouse",
-                "If out of Stock, offline": "If out of Stock, offline",
-                "If out of Stock, not orderable": "If out of Stock, not orderable"
-            }
+        "productType": {
+            "BASIC": "Basic article",
+            "STORABLE": "Stockable"
         },
-        "supplied": {
-            "optionsEnUs": {
-                "TV": "TV",
-                "Phone": "Phone",
-                "Camera": "Camera",
-                "Remote Control (with batteries)": "Remote Control (with batteries)",
-                "Documentation": "Documentation",
-                "Headset": "Headset",
-                "Charger": "Charger",
-                "Battery": "Battery",
-                "Lens": "Lens",
-                "Case": "Case",
-                "Power cord": "Power cord"
-            },
-            "optionsDeDe": {
-                "TV": "Fernseher",
-                "Phone": "Telefon",
-                "Camera": "Kamera",
-                "Remote Control (with batteries)": "Fernbedienung (mit Batterien)",
-                "Documentation": "Dokumentation",
-                "Headset": "Headset",
-                "Charger": "Ladegerät",
-                "Battery": "Batterie",
-                "Lens": "Linse",
-                "Case": "Hülle",
-                "Power cord": "Netzkabel"
-            },
-            "options": {
-                "TV": "TV",
-                "Phone": "Phone",
-                "Camera": "Camera",
-                "Remote Control (with batteries)": "Remote Control (with batteries)",
-                "Documentation": "Documentation",
-                "Headset": "Headset",
-                "Charger": "Charger",
-                "Battery": "Battery",
-                "Lens": "Lens",
-                "Case": "Case",
-                "Power cord": "Power cord"
-            }
+        "pcConfigState": {
+            "hide": "-",
+            "New": "New",
+            "Used": "Used",
+            "Refurbished": "Refurbished"
+        },
+        "usedStock": {
+            "stockManual": "Manual stock",
+            "weclappStock": "Weclapp stock (Clearance sale)",
+            "weclappStockExtended": "Weclapp stock"
+        },
+        "deploymentTime": {
+            "4-5": "4-5 Days",
+            "5-8": "5-8 Days"
+        },
+        "flagsCategories": {
+            "Gaming": "Gaming",
+            "Office": "Office",
+            "Mini": "Mini",
+            "Adventure": "Adventure"
         }
     },
     "labels": {
-        "Create Product": "Create Product"
+        "Create Product": "Create Product",
+        "shortDescription": "Short Description",
+        "shortDescriptionAddon": "Short Description Addon",
+        "middleDescription": "Middle Description",
+        "description": "Description",
+        "detailDescription": "Detail Description",
+        "powerbar": "Powerbar",
+        "longDescription": "Long Description",
+        "descriptions": "Descriptions",
+        "prices": "Prices",
+        "Stock": "Stock",
+        "Updating PC Configuration": "Updating Configuration",
+        "Updating PC Configurations": "Updating Configurations",
+        "updatePcConfigurationWeclapp": "Update Configurations in Weclapp"
+    },
+    "links": {
+        "priceSupplier": "PriceSupplier",
+        "priceSuppliers": "PriceSuppliers",
+        "testings": "Testings",
+        "mainboardTestings": "mainboardTestings",
+        "ksBadgetss": "Badges",
+        "productConfiguration": "Product Configuration"
+    },
+    "boolFilters": {
+        "DataQualityImageCount": "Not enough pictures",
+        "requiredAttributesNotFilled": "Required attributes not filled",
+        "duplicateMpn": "Mpn duplicates",
+        "duplicateTitle": "Title duplicates",
+        "duplicateSku": "Sku duplicates",
+        "duplicateEan": "Ean duplicates",
+        "DataQualitySpell": "Spelling translation errors",
+        "DataQualityReqSku": "Sku not filled",
+        "DataQualityReqEan": "Ean not filled",
+        "DataQualityReqMpn": "Mpn not filled",
+        "DataQualityImageLow": "Low image resolution",
+        "DataQualityImageHigh": "High image resolution",
+        "DataQualityImageRatio": "Invalid image aspect ratio",
+        "DataQualityImageType": "Invalid image file type",
+        "DataQualityImageBig": "Big file size of image",
+        "DataQualityImageSmall": "Small file size of image",
+        "DataQualityChannel": "Channel not filled",
+        "DataQualityEmptyPcArea": "Empty PC area"
+    },
+    "tooltips": {
+        "name": "Name is used to generate the Detail Description",
+        "productsoptionsvaluesnamelong": "Name Long is used to generate the middle description",
+        "productsoptionsvaluesnameshort": "Short Addon is used for generating the Short Description Addon",
+        "productionStart": "Production start date",
+        "productionEnd": "Production End Date",
+        "aBS": "ABS"
+    },
+    "messages": {
+        "productExistsInConfiguration": "This product is used in Configurations and will be removed from it."
     }
 }

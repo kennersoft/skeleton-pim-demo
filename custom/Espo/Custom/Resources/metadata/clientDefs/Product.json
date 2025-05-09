@@ -1,5 +1,41 @@
 {
     "kanbanViewMode": false,
     "color": null,
-    "iconClass": "fas fa-box-open"
+    "iconClass": "fas fa-box-open",
+    "dynamicLogic": {
+        "fields": {
+        }
+    },
+    "boolFilterList": [
+        "__APPEND__",
+        "withoutAssociatedProducts",
+        "withoutProductAttributes",
+        "DataQualityImageCount",
+        "requiredAttributesNotFilled",
+        "duplicateMpn",
+        "duplicateTitle",
+        "duplicateSku",
+        "duplicateEan",
+        "DataQualitySpell",
+        "DataQualityReqSku",
+        "DataQualityReqEan",
+        "DataQualityReqMpn",
+        "DataQualityImageLow",
+        "DataQualityImageHigh",
+        "DataQualityImageRatio",
+        "DataQualityImageType",
+        "DataQualityImageBig",
+        "DataQualityImageSmall",
+        "DataQualityChannel",
+        "byComponentSku",
+        "zeroPrice",
+        "notUsedInTemplates"
+    ],
+    "hiddenBoolFilterList": [
+        "__APPEND__",
+        "notDisabledInConfiguration",
+        "byComponentSku",
+        "zeroPrice",
+        "notUsedInTemplates"
+    ]
 }

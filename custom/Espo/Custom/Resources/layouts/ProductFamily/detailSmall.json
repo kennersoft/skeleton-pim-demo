@@ -3,30 +3,32 @@
         "rows": [
             [
                 {
-                    "name": "isActive"
-                },
-                false
-            ],
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
             [
                 {
-                    "name": "name"
-                },
-                {
-                    "name": "code"
+                    "name": "isActive"
                 }
             ],
             [
                 {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
+                    "name": "code"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
@@ -35,6 +37,7 @@
             ]
         ],
         "style": "default",
-        "label": ""
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

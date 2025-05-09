@@ -1,5 +1,13 @@
 {
     "labels": {
         "Create Brand": "Create Brand"
+    },
+    "fields": {
+        "sku": "SKU",
+        "site": "Site",
+        "manufactureLogo": "ManufactureLogo"
+    },
+    "tooltips": {
+        "manufactureLogo": "Manufacture logo"
     }
 }

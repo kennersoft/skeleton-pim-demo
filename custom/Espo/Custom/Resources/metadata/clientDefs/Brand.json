@@ -1,5 +1,8 @@
 {
     "kanbanViewMode": false,
     "color": null,
-    "iconClass": "fas fa-tags"
+    "iconClass": "fas fa-tags",
+    "dynamicLogic": {
+
+    }
 }

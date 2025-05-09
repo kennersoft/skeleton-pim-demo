@@ -3,6 +3,18 @@
         "rows": [
             [
                 {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
                     "name": "isActive"
                 },
                 {
@@ -11,24 +23,18 @@
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "currencies"
+                },
+                {
+                    "name": "locales"
                 }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
@@ -37,6 +43,7 @@
             ]
         ],
         "style": "default",
-        "label": ""
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

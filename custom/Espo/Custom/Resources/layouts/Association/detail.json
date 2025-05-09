@@ -9,24 +9,27 @@
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "backwardAssociation"
                 }
-            ],
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
             [
                 {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
             [
                 {
                     "name": "description",
@@ -35,6 +38,7 @@
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": "Descriptions",
+        "multilangTabsActive": true
     }
 ]

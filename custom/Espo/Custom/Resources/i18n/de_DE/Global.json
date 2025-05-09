@@ -42,7 +42,8 @@
         "Currency": "Währung",
         "Catalog": "Kataloge",
         "Product": "Produkte",
-        "ProductFamily": "Produktfamilien"
+        "ProductFamily": "Produktfamilien",
+        "KsBadgets": "Badget"
     },
     "scopeNamesPlural": {
         "ActionHistoryRecord": "Aktionsgeschichte",
@@ -52,7 +53,8 @@
         "EmailAddress": "E-Mail Addresse",
         "Catalog": "Kataloge",
         "Product": "Produkte",
-        "ProductFamily": "Produktfamilien"
+        "ProductFamily": "Produktfamilien",
+        "KsBadgets": "Badgets"
     },
     "navMenuDelimiters": {
         "_delimiter_393f8383": "Artikel"

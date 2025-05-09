@@ -1,42 +1,78 @@
 [
-    {
-        "rows": [
-            [
-                {
-                    "name": "name"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "sku"
-                },
-                {
-                    "name": "type"
-                }
-            ],
-            [
-                {
-                    "name": "catalog"
-                },
-                {
-                    "name": "productFamily"
-                }
-            ]
-        ],
-        "style": "default",
-        "label": ""
-    }
+  {
+    "rows": [
+      [
+        {
+          "name": "isActive"
+        },
+        {
+          "name": "type"
+        }
+      ],
+      [
+        {
+          "name": "sku"
+        },
+        {
+          "name": "ean"
+        },
+        {
+          "name": "mpn"
+        }
+      ],
+      [
+        {
+          "name": "catalog"
+        },
+        {
+          "name": "brand"
+        },
+        {
+          "name": "productFamily"
+        }
+      ],
+      [
+        {
+          "name": "productStatus"
+        }
+      ]
+    ],
+    "style": "default",
+    "label": "Overview"
+  },
+  {
+    "rows": [
+      [
+        {
+          "name": "name"
+        }
+      ],
+      [
+        {
+          "name": "longDescription"
+        }
+      ]
+    ],
+    "style": "default",
+    "label": "Names",
+    "multilangTabsActive": true
+  },
+  {
+    "rows": [
+      [
+        {
+          "name": "price"
+        }
+      ],
+      [
+        {
+          "name": "finalPrice"
+        }
+      ]
+    ],
+    "style": "default",
+    "dynamicLogicVisible": null,
+    "multilangTabsActive": false,
+    "customLabel": "Prices"
+  }
 ]

@@ -1,5 +1,22 @@
 {
     "labels": {
         "Create Attribute": "Create Attribute"
+    },
+    "fields": {
+        "channelProductAttributeValues": "Attributwerte des Produktkanals",
+        "createdAt": "erstellt am",
+        "createdBy": "erstellt von",
+        "isSystem": "Ist das System",
+        "modifiedAt": "geändert am",
+        "modifiedBy": "geändert von",
+        "productAttributes": "Produktattribute",
+        "productAttributeValues": "Werte des Produktattributes",
+        "productFamilyAttributes": "Attribute der Produktfamilie",
+        "products": "Produkte",
+        "typeValue": "Possible value",
+        "type": "Typ"
+    },
+    "messages": {
+        "deactivatingConfigurationComponent": "<strong>WARNING:</strong> You want to deactivate this product, which is used in the following Configurations:"
     }
 }

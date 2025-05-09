@@ -1,0 +1,51 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "code",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "file"
+                },
+                {
+                    "name": "private"
+                }
+            ],
+            [
+                {
+                    "name": "nameOfFile",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "collection",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    }
+]

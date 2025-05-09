@@ -2,17 +2,11 @@
     "fields": {
         "createdAt": "erstellt am",
         "createdBy": "erstellt von",
-        "descriptionDeDe": "Beschreibung DeDe",
-        "descriptionEnUs": "Beschreibung EnUs",
-        "descriptionEsEs": "Beschreibung EsEs",
-        "descriptionFrFr": "Beschreibung FrFr",
+        "description": "Beschreibung",
         "isActive": "Aktiv",
         "modifiedAt": "geändert am",
         "modifiedBy": "geändert von",
-        "nameDeDe": "Gruppenname DeDe",
-        "nameEnUs": "Gruppenname EnUs",
-        "nameEsEs": "Gruppenname EsEs",
-        "nameFrFr": "Gruppenname FrFr",
+        "name": "Gruppenname",
         "sortOrder": "Sortierreihenfolge"
     },
     "labels": {

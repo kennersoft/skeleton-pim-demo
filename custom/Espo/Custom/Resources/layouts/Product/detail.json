@@ -11,53 +11,19 @@
             ],
             [
                 {
-                    "name": "name"
-                },
-                {
-                    "name": "image"
-                }
-            ],
-            [
-                {
-                    "name": "nameDeDe"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "nameEnUs"
-                },
-                false
-            ],
-            [
-                {
                     "name": "sku"
                 },
-                false
+                {
+                    "name": "ean"
+                },
+                {
+                    "name": "mpn"
+                }
             ],
             [
                 {
                     "name": "catalog"
                 },
-                false
-            ],
-            [
-                {
-                    "name": "mpn"
-                },
-                {
-                    "name": "ean"
-                }
-            ],
-            [
-                {
-                    "name": "productStatus"
-                },
-                {
-                    "name": "productSerie"
-                }
-            ],
-            [
                 {
                     "name": "brand"
                 },
@@ -67,88 +33,46 @@
             ],
             [
                 {
-                    "name": "measuringUnit"
-                },
-                {
-                    "name": "packaging"
-                }
-            ],
-            [
-                {
-                    "name": "tax"
-                },
-                {
-                    "name": "uvp"
-                }
-            ],
-            [
-                {
-                    "name": "price"
-                },
-                {
-                    "name": "finalPrice"
-                }
-            ],
-            [
-                {
-                    "name": "basePriceAmount"
-                },
-                {
-                    "name": "packedAmount"
-                }
-            ],
-            [
-                {
-                    "name": "deliveryStatus"
-                },
-                {
-                    "name": "supplied"
-                }
-            ],
-            [
-                {
-                    "name": "deliveryStatusDeDe"
-                },
-                {
-                    "name": "suppliedDeDe"
-                }
-            ],
-            [
-                {
-                    "name": "deliveryStatusEnUs"
-                },
-                {
-                    "name": "suppliedEnUs"
-                }
-            ],
-            [
-                {
-                    "name": "amount"
-                },
-                {
-                    "name": "tag"
-                }
-            ],
-            [
-                {
-                    "name": "longDescription",
-                    "fullWidth": true
-                }
-            ],
-            [
-                {
-                    "name": "longDescriptionDeDe",
-                    "fullWidth": true
-                }
-            ],
-            [
-                {
-                    "name": "longDescriptionEnUs",
-                    "fullWidth": true
+                    "name": "productStatus"
                 }
             ]
         ],
         "style": "default",
         "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "longDescription"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "price"
+                }
+            ],
+            [
+                {
+                    "name": "finalPrice"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "multilangTabsActive": false,
+        "customLabel": "Prices"
     }
 ]

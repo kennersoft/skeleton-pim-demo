@@ -1,0 +1,40 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Names",
+        "multilangTabsActive": true
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "code"
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "typeValue"
+                }
+            ],
+            [
+                {
+                    "name": "attributeGroup"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview",
+        "multilangTabsActive": false
+    }
+]

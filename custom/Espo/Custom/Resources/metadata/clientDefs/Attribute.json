@@ -1,5 +1,19 @@
 {
     "kanbanViewMode": false,
     "color": null,
-    "iconClass": "fas fa-sliders-h"
+    "iconClass": "fas fa-sliders-h",
+    "dynamicLogic": {
+        "fields": {
+            "attributeGroup": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "locale"
+                        }
+                    ]
+                }
+            }
+        }
+    }
 }

@@ -1,13 +1,8 @@
 [
     "isActive",
-    "categoryImages",
-    "categoryRoot",
-    "channels",
     "createdAt",
     "createdBy",
     "modifiedAt",
     "modifiedBy",
-    "categoryParent",
-    "markupType",
-    "markupValue"
+    "categoryParent"
 ]

@@ -1,10 +1,14 @@
 {
-    "collection": {
-        "sortBy": "createdAt",
-        "asc": false,
-        "textFilterFields": [
-            "name"
-        ],
-        "fullTextSearch": false
+    "fields": {
+        "name": {
+            "isMultilang": true,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false
+        },
+        "typeValue": {
+            "storeArrayValues": true,
+            "options": false
+        }
     }
 }
